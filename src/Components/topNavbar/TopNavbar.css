@@ -13,5 +13,5 @@ input {
 .buttons {
   display: flex;
   align-content: flex-end;
-  background-color: blue;
+  background-color: lightblue;
 }
