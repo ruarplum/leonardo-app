@@ -16,17 +16,26 @@ const Feed = (props) => {
             <div className = "feed-com-post">
                 <h3>r/AskReddit <span className = "feed-span">Posted by u/nick 12 hours ago</span></h3>
             </div>
+
             <div className = "feed-award">
-                <p>test text</p>
+                <p>⭐</p>
+                <p>🤝🏼</p>
+                <p>🦭</p>
+                <p>🥄</p>
+                <p>🧸</p>
             </div>
+
             <div className = "feed-join">
-                <button>test</button>
+                <button className = "join">➕ Join</button>
             </div>
             <div className = "feed-main">
                 <p>This is test text</p>
             </div>
             <div className = "feed-bottom-bar">
-                <button>bottom test</button>
+                <button className = "botButton">💬 .. Comments</button>
+                <button className = "botButton">↪ Share</button>
+                <button className = "botButton">💾 Save</button>
+                <button className = "botButton">...</button>
             </div>
 
         </div>
