@@ -2,11 +2,17 @@ import "./News-Feed.css";
 
 
 const Feed = (props) => {
-    return (
+    return ( 
+        /* This will create main box for content to sit within*/
         <div className = "feed-box">
+
             <div className = "feed-sidebar">
-                <h2>test texts</h2>
+                <button className = "upArrow">⬆</button>
+                <p className ="arrowNumber">number</p>
+                <button className = "downArrow">⬇</button>
             </div>
+
+            
             <div className = "feed-com-post">
                 <h3>r/AskReddit <span className = "feed-span">Posted by u/nick 12 hours ago</span></h3>
             </div>
@@ -22,6 +28,7 @@ const Feed = (props) => {
             <div className = "feed-bottom-bar">
                 <button>bottom test</button>
             </div>
+
         </div>
     );
 }
