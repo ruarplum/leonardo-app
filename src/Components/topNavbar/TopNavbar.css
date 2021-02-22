@@ -1,0 +1,17 @@
+.container {
+  display: flex;
+  align-content: flex-end;
+  justify-content: space-between;
+}
+.searchBar,
+input {
+  width: 75vh;
+}
+[alt="reddit"] {
+  height: 5vh;
+}
+.buttons {
+  display: flex;
+  align-content: flex-end;
+  background-color: blue;
+}
