@@ -1,15 +1,15 @@
-import { FaGithub } from 'react-icons/fa';
 
-const Button = ({ color, text, onClick }) => {
+const Button = (props) => {
     return (
-        <button
-            style={{ backgroundColor: color }}
-            className="button"
-            onClick={onClick}
-
-        >
-            {text}
-        </button>
+        <div className={props.className}>
+            {props.img}
+            <button
+                className="button"
+                onClick={props.onClick}
+            >
+                {props.text}
+            </button>
+        </div>
     )
 }
 
