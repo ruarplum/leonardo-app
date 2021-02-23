@@ -12,3 +12,24 @@
     font: inherit;
 }
 
+.PopNavbar button {
+    border: none;
+    color: #7e8183;
+}
+
+.PopNavbar button:active {
+    color: #026bb6;
+}
+
+.PopNavbar button:hover {
+    background: #b4adad;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.LeftButtons button {
+    /* display: flex; */
+    /* padding: 0 10%; */
+}
+
+
