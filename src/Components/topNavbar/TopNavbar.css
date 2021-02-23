@@ -1,0 +1,73 @@
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap");
+
+.container1 {
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  justify-content: space-between;
+}
+.searchBar,
+input {
+  padding-top: 3vh;
+  width: 60vh;
+  padding-right: 25vh;
+  padding-left: 35vh;
+}
+[alt="reddit"] {
+  padding-top: 3vh;
+  padding-left: 2vh;
+  height: 4vh;
+}
+.buttons {
+  padding-top: 3vh;
+  max-height: 6vh;
+  display: flex;
+  align-content: flex-end;
+}
+[alt="userPic"] {
+  padding-top: 3vh;
+  height: 4vh;
+  justify-content: end;
+}
+.search {
+  height: 4vh;
+}
+.btn1 {
+  color: rgb(54, 54, 221);
+  box-shadow: inset 0 0 0 0;
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: white;
+  border: rgb(54, 54, 221) solid 1px;
+  width: 100px;
+  border-radius: 5px;
+  transition: ease-out 0.5s;
+  font-size: 2rem;
+  outline: none;
+}
+.btn1:hover {
+  color: white;
+  box-shadow: inset 300px 0 0 0 rgb(54, 54, 221);
+}
+.btn2 {
+  color: white;
+  box-shadow: inset 0 0 0 0;
+  font-family: "Source Sans Pro", sans-serif;
+  background-color: rgb(54, 54, 221);
+  border: white solid 1px;
+  width: 100px;
+  border-radius: 5px;
+  transition: ease-out 0.5s;
+  font-size: 1.5rem;
+  outline: none;
+}
+.btn2:hover {
+  color: rgb(54, 54, 221);
+  box-shadow: inset 300px 0 0 0 white;
+}
+
+@media (min-width: 600px) {
+  .container {
+    font-size: 1.5rem;
+  }
+}
