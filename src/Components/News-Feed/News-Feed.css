@@ -1,0 +1,27 @@
+*{
+    box-sizing:border-box;
+    margin:0;
+  }
+
+  .feed-box{
+    display: flex;
+    background-color: blanchedalmond;
+    width: 700px;
+    height: 100px;
+}
+
+.feed-right-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+}
+
+.feed-right-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.feed-award{
+    display: flex;
+}
