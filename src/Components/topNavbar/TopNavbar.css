@@ -1,9 +1,9 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap");
 
-.container {
+.container1 {
   align-content: center;
-
   display: flex;
+  flex-direction: row;
   align-content: flex-end;
   justify-content: space-between;
 }
@@ -11,6 +11,8 @@
 input {
   padding-top: 3vh;
   width: 60vh;
+  padding-right: 25vh;
+  padding-left: 35vh;
 }
 [alt="reddit"] {
   padding-top: 3vh;
