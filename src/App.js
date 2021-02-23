@@ -18,8 +18,10 @@ class App extends React.Component {
         <Sidebar text="r/Westchester" image={logo}/>
         <button type="button" className="viewAll">View All</button>
         <br/>
-      
-
+        <button className="tag1">Top</button>
+        <button className="tag2">Near You</button>
+        <button className="tag3">Gaming</button>
+        <button className="tag4">News</button>
       </div>
     );
   }
