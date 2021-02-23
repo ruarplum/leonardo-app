@@ -1,3 +1,8 @@
+.global{
+    box-sizing: content-box;
+    margin: 0;
+    background-color: lightgreen;
+}
 /* container */
   .feed-box{
     display: flex;
