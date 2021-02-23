@@ -1,14 +1,11 @@
-/* *{
-    box-sizing:border-box;
-    margin:0;
-  } */
+.feed-box *{ margin:0; box-sizing:border-box; }
 
 /* container */
   .feed-box{
     display: flex;
     background-color: rgb(255, 255, 255, 1);
     width: 700px;
-    height: 100px;
+    height: 120px;
 }
 /* right side wrapper */
 .feed-right-wrapper{
@@ -29,6 +26,8 @@
 
 .feed-sidebar{
     background-color: rgb(248, 249, 250, 1);
+    height: 100px;
+    text-align: center;
 }
 /* join button */
 .join{
@@ -50,13 +49,16 @@
     background-color: transparent;
     border: none;
 }
-.botButton:hover{
+.botButton:hover, .Arrow:hover{
     background-color: lightgray;
+    border-radius: 9999px;
 }
 .Arrow{
     background-color: transparent;
     border: none;
-    font-size: 1.5em;
-    text-shadow: 1px;
-
+    font-size: 1.8em;
+}
+.join, .botButton, .Arrow{
+    outline: none;
+    text-decoration: none;
 }

@@ -1,0 +1,35 @@
+
+.PopNavbar {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    align-items: center;
+
+    border: 1px grey solid;
+    border-radius: 4px;
+    height: 56px;
+    padding: 0 12px;
+    font: inherit;
+}
+
+.PopNavbar button {
+    border: none;
+    color: #7e8183;
+}
+
+.PopNavbar button:active {
+    color: #026bb6;
+}
+
+.PopNavbar button:hover {
+    background: #b4adad;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.LeftButtons button {
+    /* display: flex; */
+    /* padding: 0 10%; */
+}
+
+
