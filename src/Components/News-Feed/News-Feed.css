@@ -1,8 +1,5 @@
-.global{
-    box-sizing: content-box;
-    margin: 0;
-    background-color: lightgreen;
-}
+.feed-box *{ margin:0; box-sizing:border-box; }
+
 /* container */
   .feed-box{
     display: flex;
