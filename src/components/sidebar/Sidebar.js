@@ -2,9 +2,13 @@ const Sidebar = (props) => {
     return (
         <div className="container">
 
-            <div className="communitieaList">
-                <img src={props.image} alt={props.text} className="logo1" />
-                <p>{props.text}</p>
+            <div className="communityList">
+                <div className="imagelogo">
+                    <img src={props.image} alt={props.text} className="logo1" />
+                </div>
+                <div className="communitytext">
+                    <p>{props.text}</p>
+                </div>
             </div>
 
         </div>
@@ -13,3 +17,4 @@ const Sidebar = (props) => {
 
 export default Sidebar;
 
+ 

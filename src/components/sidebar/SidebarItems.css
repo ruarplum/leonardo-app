@@ -1,42 +1,49 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .logo1{
-
-    height: 2%;
-    width: 2%;
-    padding-left: 5%;
-}
-.SidebarItems{
-    border: solid grey;
-    padding-left: 3%;
-}
-h2{
-    background-color:skyblue;  
+    height: 35%;
+    width: 85%;
+    margin-left: 40px;
 }
 .sidebar{
-    width:21%;
-    display: flex;
-    flex-wrap: wrap;
-    flex-direction: column;
-    justify-content: center;
-    margin-left: 61%;
-    margin-top: 20%;
+    width:21%; 
 }
-.title{
+.communitytitle{
     text-align: left;
     font-family: "Roboto";
     color: white;
-    text-shadow: darkblue;
     font-size: 16px;
     padding-left: 5%;
     padding-top: 18%;
     padding-right: 15%;
     padding-bottom: 2%;
     border-radius: 0.3em;
+    background-color:skyblue;  
     border: solid grey;
 }
-.communityListcont{
+.listcont{
+    width: 21%;
+    display: flex;
+    flex-direction: row;
+    margin-left: 20px;
+    margin-bottom: -55px;
+    margin-top: 8px;
 
 }
- 
- 
+.communityList{
+    display: flex;    
+}
+.communitytext{
+    margin-left: 45px;
+    margin-bottom: 65px;
+    font-family: "Roboto";
+    font-size: 15px;
+}
+#listno{
+    margin-top: 8px;
+}
+.communitycont{
+    border: solid grey;
+    border-radius: 0.3em;
+    margin-top: -15px;
+}
