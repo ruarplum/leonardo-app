@@ -7,9 +7,9 @@ const Feed = (props) => {
     <div className = "feed-box">
        
             <div className = "feed-sidebar">
-                <button className = "upArrow">⬆</button>
+                <button className = "Arrow">⬆</button>
                 <p className ="arrowNumber">number</p>
-                <button className = "downArrow">⬇</button>
+                <button className = "Arrow">⬇</button>
             </div>
 
         <div className = "feed-right-wrapper">
