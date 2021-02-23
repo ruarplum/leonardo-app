@@ -2,14 +2,14 @@
     box-sizing:border-box;
     margin:0;
   }
-
+/* container */
   .feed-box{
     display: flex;
-    background-color: blanchedalmond;
+    background-color: rgb(255, 255, 255, 1);
     width: 700px;
     height: 100px;
 }
-
+/* right side wrapper */
 .feed-right-wrapper{
     display: flex;
     flex-direction: column;
@@ -24,4 +24,20 @@
 
 .feed-award{
     display: flex;
+}
+
+.feed-sidebar{
+    background-color: rgb(248, 249, 250, 1);
+}
+/* join button */
+.join{
+    background-color: rgb(0, 121, 211, 1);
+    color: white;
+    font-weight: bold;
+    border-radius: 9999px;
+    display: flex;
+}
+.feed-main, .feed-bottom-bar{
+    text-align: left;
+    padding: 5px 0px;
 }
