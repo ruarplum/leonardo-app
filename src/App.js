@@ -1,9 +1,9 @@
 import React from "react";
-import TopNavbar from "./Components/topNavbar";
+import TopNavbar from "./Components/topNavbar/topNavbar";
 import Feed from "./Components/News-Feed/News-Feed";
 import TrendingToday from "./Components/TrendingToday#5/TrendingToday";
 import PopularNavbar from "./Components/Popular-posts-navbar/Popular-posts-navbar";
-import SidebarItems from "./components/sidebar/SidebarItems";
+import SidebarItems from "./Components/sidebar/SidebarItems";
 import "./App.css";
 
 function App() {
