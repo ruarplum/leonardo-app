@@ -1,12 +1,25 @@
 import React from "react";
-import "./App.css";
+import TopNavbar from "./Components/topNavbar";
+import Feed from "./Components/News-Feed/News-Feed";
+import TrendingToday from "./Components/TrendingToday#5/TrendingToday";
+import PopularNavbar from "./Components/Popular-posts-navbar/Popular-posts-navbar";
 import SidebarItems from "./components/sidebar/SidebarItems";
-
+import "./App.css";
 
 function App() {
   return (
     <div className="App">
-    <SidebarItems/>
+      <TopNavbar />
+      <TrendingToday />
+      <div className="mainFeedArea">
+        <div className="currentFeedArea">
+          <PopularNavbar />
+          <Feed />
+        </div>
+        <div className="sideFeedArea">
+          <SidebarItems />
+        </div>
+      </div>
     </div>
   );
 }
