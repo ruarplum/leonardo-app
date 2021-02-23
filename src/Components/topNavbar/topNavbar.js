@@ -21,10 +21,10 @@ function TopNavbar() {
 
       <div className="user">
         <select className="userSelect">
-          <option value="Profile">Profile</option>
+          <option value="Profile">👥</option>
           <option value="Settings">Settings</option>
 
-          <option className="userOps">👥</option>
+          <option className="userOps">Profile</option>
 
           <option value="help">Help Center</option>
         </select>
