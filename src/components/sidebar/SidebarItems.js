@@ -1,13 +1,12 @@
 import React from "react";
 import Sidebar from "./Sidebar";
 import logo from "./logo.png";
-import "./Sidebar.css";
+import "./SidebarItems.css";
 
 const SidebarItems = () => {
-
     return (
         <div className="sidebar">
-            <h2 className="title">Communities Around the World</h2>
+            <h2 className="title">Top News Communities</h2>
             <div className="communityListcont">
                 <ol>
                     <li><Sidebar text="r/Humboldt" image={logo} /></li>

@@ -1,0 +1,42 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.logo1{
+
+    height: 2%;
+    width: 2%;
+    padding-left: 5%;
+}
+.SidebarItems{
+    border: solid grey;
+    padding-left: 3%;
+}
+h2{
+    background-color:skyblue;  
+}
+.sidebar{
+    width:21%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 61%;
+    margin-top: 20%;
+}
+.title{
+    text-align: left;
+    font-family: "Roboto";
+    color: white;
+    text-shadow: darkblue;
+    font-size: 16px;
+    padding-left: 5%;
+    padding-top: 18%;
+    padding-right: 15%;
+    padding-bottom: 2%;
+    border-radius: 0.3em;
+    border: solid grey;
+}
+.communityListcont{
+
+}
+ 
+ 
