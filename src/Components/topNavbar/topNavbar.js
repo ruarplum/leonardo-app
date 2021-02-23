@@ -1,6 +1,5 @@
 import "./TopNavbar.css";
 import logo from "./logo.png";
-import user from "./user.jpg";
 
 function TopNavbar() {
   return (
@@ -9,7 +8,7 @@ function TopNavbar() {
         <img alt="reddit" src={logo} />
       </div>
       <div className="searchBar">
-        <input type="search" name="Search" />
+        <input type="search" name="Search"></input>
       </div>
       <div className="buttons">
         <button type="submit" className="btn1" submit>
@@ -21,13 +20,12 @@ function TopNavbar() {
       </div>
 
       <div className="user">
-        <img alt="userPic" src={user} />
-        <select>
+        <select className="userSelect">
           <option value="Profile">Profile</option>
           <option value="Settings">Settings</option>
 
           <option selected className="userOps">
-            User Options
+            👥
           </option>
 
           <option value="help">Help Center</option>
