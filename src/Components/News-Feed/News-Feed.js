@@ -1,7 +1,7 @@
 import "./News-Feed.css";
 
 
-const Feed = (props) => {
+const Feed = () => {
     return ( 
         /* This will create main box for content to sit within*/
     <div className = "feed-box">

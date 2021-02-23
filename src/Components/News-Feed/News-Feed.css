@@ -1,3 +1,5 @@
+.feed-box *{ margin:0; box-sizing:border-box; }
+
 /* container */
   .feed-box{
     display: flex;
