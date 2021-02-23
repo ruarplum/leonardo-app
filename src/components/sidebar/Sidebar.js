@@ -1,16 +1,15 @@
-import React from "react";
-import "./Sidebar.css";
+const Sidebar = (props) => {
+    return (
+        <div className="container">
 
-class Sidebar extends React.Component {
-    render() {
-        return (
-            <div className="sidebar">
-                <br/>
-                <img src={this.props.image} alt={this.props.text} className="logo1" />
-                <p>{this.props.text}</p>
+            <div className="communitieaList">
+                <img src={props.image} alt={props.text} className="logo1" />
+                <p>{props.text}</p>
             </div>
-        )
-    }
-}
+
+        </div>
+    );
+};
+
 export default Sidebar;
 
