@@ -3,7 +3,7 @@ import logo from "./logo.png";
 
 function TopNavbar() {
   return (
-    <container className="container1">
+    <div className="container1">
       <div className="logo">
         <img alt="reddit" src={logo} />
       </div>
@@ -31,7 +31,7 @@ function TopNavbar() {
           <option value="help">Help Center</option>
         </select>
       </div>
-    </container>
+    </div>
   );
 }
 
