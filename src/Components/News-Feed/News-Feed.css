@@ -41,3 +41,14 @@
     text-align: left;
     padding: 5px 0px;
 }
+.feed-bottom-bar{
+    display: flex;
+}
+.botButton{
+    height: 25px;
+    background-color: transparent;
+    border: none;
+}
+.botButton:hover{
+    background-color: lightgray;
+}
