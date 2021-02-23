@@ -11,10 +11,10 @@ function TopNavbar() {
         <input type="search" name="Search"></input>
       </div>
       <div className="buttons">
-        <button type="submit" className="btn1" submit>
+        <button type="submit" className="btn1">
           Log In
         </button>
-        <button type="submit" className="btn2" submit>
+        <button type="submit" className="btn2">
           Sign Up
         </button>
       </div>
@@ -24,9 +24,7 @@ function TopNavbar() {
           <option value="Profile">Profile</option>
           <option value="Settings">Settings</option>
 
-          <option selected className="userOps">
-            👥
-          </option>
+          <option className="userOps">👥</option>
 
           <option value="help">Help Center</option>
         </select>
