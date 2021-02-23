@@ -1,10 +1,11 @@
 import React from "react";
 
-function Sidebar(){
+function Sidebar(props){
     return(
-        <div className="sidebar">
-            <header>Communities Around the World</header>
+        <div>
+            <p>{props.text}</p>
         </div>
     )
 }
 export default Sidebar;
+
