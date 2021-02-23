@@ -11,11 +11,13 @@ class App extends React.Component {
     return (
       <div className="App">
         <header>Communities Around the World</header>
-        <Sidebar text="r/Humboldt" image={logo}/>
-        <Sidebar text="r/boulder" image={logo} />
-        <Sidebar text="r/GrandForks" image={logo} />
-        <Sidebar text="r/corona" image={logo} />
-        <Sidebar text="r/Westchester" image={logo}/>
+        <ol>
+        <li><Sidebar text="r/Humboldt" image={logo}/></li>
+        <li><Sidebar text="r/boulder" image={logo} /></li>
+        <li><Sidebar text="r/GrandForks" image={logo} /></li>
+        <li><Sidebar text="r/corona" image={logo} /></li>
+        <li><Sidebar text="r/Westchester" image={logo}/></li>
+        </ol>
         <button type="button" className="viewAll">View All</button>
         <br/>
         <button className="tag1">Top</button>
