@@ -6,10 +6,10 @@ const Button = ({ color, text, onClick }) => {
             style={{ backgroundColor: color }}
             className="button"
             onClick={onClick}
-            
-            >
-                {text}
-            </button>
+
+        >
+            {text}
+        </button>
     )
 }
 

@@ -1,0 +1,14 @@
+
+.PopNavbar {
+    display: flex;
+    justify-content: space-between;
+    flex-flow: row nowrap;
+    align-items: center;
+
+    border: 1px grey solid;
+    border-radius: 4px;
+    height: 56px;
+    padding: 0 12px;
+    font: inherit;
+}
+
