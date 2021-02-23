@@ -1,7 +1,8 @@
-*{
+/* *{
     box-sizing:border-box;
     margin:0;
-  }
+  } */
+
 /* container */
   .feed-box{
     display: flex;
@@ -51,4 +52,11 @@
 }
 .botButton:hover{
     background-color: lightgray;
+}
+.Arrow{
+    background-color: transparent;
+    border: none;
+    font-size: 1.5em;
+    text-shadow: 1px;
+
 }
