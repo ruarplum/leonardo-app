@@ -6,21 +6,41 @@ import "./SidebarItems.css";
 const SidebarItems = () => {
     return (
         <div className="sidebar">
-            <h2 className="title">Top News Communities</h2>
-            <div className="communityListcont">
-                <ol>
-                    <li><Sidebar text="r/Humboldt" image={logo} /></li>
-                    <li><Sidebar text="r/boulder" image={logo} /></li>
-                    <li><Sidebar text="r/GrandForks" image={logo} /></li>
-                    <li><Sidebar text="r/corona" image={logo} /></li>
-                    <li><Sidebar text="r/Westchester" image={logo} /></li>
-                </ol>
-                <button type="button" className="viewAll">View All</button>
-                <br />
-                <button className="tag1">Top</button>
-                <button className="tag2">Near You</button>
-                <button className="tag3">Gaming</button>
-                <button className="tag4">News</button>
+            <h2 className="communitytitle">Top News Communities</h2>
+            <div className="communitycont">
+                
+                <div className="communityListcont">
+
+                    <div className="listcont" id="listcont1">
+                        <div id="listno">1</div>
+                        <Sidebar text="r/UpliftingNews" image={logo} />
+                    </div>
+                    <div className="listcont" id="listcont2">
+                        <div id="listno">2</div>
+                        <Sidebar text="r/technews" image={logo} />
+                    </div>
+                    <div className="listcont" id="listcont3">
+                        <div id="listno">3</div>
+                        <Sidebar text="r/worldnews" image={logo} />
+                    </div>
+                    <div className="listcont" id="listcont4">
+                        <div id="listno">4</div>
+                        <Sidebar text="r/gamernews" image={logo} />
+                    </div>
+                    <div className="listcont" id="listcont5">
+                        <div id="listno">5</div>
+                        <Sidebar text="r/olympics" image={logo} />
+                    </div>
+
+                </div>
+                <div className="buttons">
+                    <button type="button" className="viewAll">View All</button>
+                    <br />
+                    <button className="tag1">Top</button>
+                    <button className="tag2">Near You</button>
+                    <button className="tag3">Gaming</button>
+                    <button className="tag4">News</button>
+                </div>
             </div>
         </div>
     );
