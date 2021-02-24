@@ -94,11 +94,9 @@ input {
   color: rgb(135, 206, 235);
   box-shadow: inset 300px 0 0 0 white;
 }
+
 @media (min-width: 600px) {
   .container {
     font-size: 1.5rem;
   }
-}
-.dropdown {
-  padding-top: 25px;
 }
