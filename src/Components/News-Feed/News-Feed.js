@@ -1,15 +1,17 @@
 import "./News-Feed.css";
 import Icon from "../sidebar/logo.png";
 import Who from "./Who";
+import Counter from "./Counter";
 
 const Feed = () => {
   return (
     /* This will create main box for content to sit within*/
     <div className="feed-box">
       <div className="feed-sidebar">
-        <button className="upArrow">⬆</button>
+        <Counter />
+        {/* <button className="upArrow">⬆</button>
         <p className="arrowNumber">number</p>
-        <button className="downArrow">⬇</button>
+        <button className="downArrow">⬇</button> */}
       </div>
 
       <div className="feed-right-wrapper">
