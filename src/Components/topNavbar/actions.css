@@ -1,0 +1,16 @@
+.actions {
+  display: flex;
+  align-items: center;
+}
+.profile svg:first-child {
+  color: rgb(135, 206, 235);
+  border-radius: 25px;
+  padding-top: 3vh;
+  position: relative;
+  height: 4vh;
+  width: 4vh;
+}
+.profile svg:first-child:hover {
+  color: rgb(218, 224, 230);
+  box-shadow: inset 300px 0 0 0 white;
+}

@@ -3,6 +3,7 @@
 .userPic {
   padding-bottom: 10px;
 }
+
 .user {
   padding-top: 30px;
   height: 10px;
@@ -93,6 +94,16 @@ input {
 .btn2:hover {
   color: rgb(135, 206, 235);
   box-shadow: inset 300px 0 0 0 white;
+}
+.userBox {
+  position: relative;
+}
+.userBox label {
+  position: absolute;
+
+  display: flex;
+  align-items: center;
+  height: 100%;
 }
 
 @media (min-width: 600px) {

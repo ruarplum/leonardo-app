@@ -1,12 +1,12 @@
 import "./TopNavbar.css";
 import logo from "./logo.png";
 import Actions from "./actions";
-import { AiOutlineUser } from "react-icons/all";
+
 import SearchBar from "./searchBar";
 import Dropdown from "react-dropdown";
 import "react-dropdown/style.css";
 
-const options = ["Profile", "Settings", "Help Center"];
+const options = ["Settings", "Dark Mode", "Help Center"];
 const defaultOption = options[0];
 
 function TopNavbar() {
@@ -30,6 +30,7 @@ function TopNavbar() {
       </div>
 
       <div className="user">
+        <Actions />
         <div className="dropdown">
           <Dropdown
             options={options}
