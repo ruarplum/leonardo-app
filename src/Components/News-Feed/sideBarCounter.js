@@ -1,34 +1,21 @@
-import React from "react";
+import { useState } from "react";
 
-class Counter extends React.Component {
-  state = {
-    count: 0,
-  };
+const Counter = (props) => {
+  const [count, setCount] = useState(props.votes);
 
-  addClick = () => {
-    this.setState(({ count }) => ({
-      count: count + 1,
-    }));
-  };
+  return (
+    <div>
+      <button className="upArrow" onClick={() => setCount(count + 1)}>
+        ⬆
+      </button>
 
-  removeClick = () => {
-    this.setState(({ count }) => ({
-      count: count - 1,
-    }));
-  };
+      <p className="arrowNumber">{count}</p>
 
-  render() {
-    return (
-      <div>
-        <button className="upArrow" onClick={this.addClick}>
-          {this.state.count}
-        </button>
-        <button className="downArrow" onClick={this.removeClick}>
-          {this.state.count}
-        </button>
-      </div>
-    );
-  }
-}
+      <button className="downArrow" onClick={() => setCount(count - 1)}>
+        ⬇
+      </button>
+    </div>
+  );
+};
 
 export default Counter;
