@@ -1,15 +1,29 @@
 import "./TopNavbar.css";
 import logo from "./logo.png";
 
+import Dropdown from "react-dropdown";
+import "react-dropdown/style.css";
+
+const options = ["Profile", "Settings", "Help Center"];
+const defaultOption = options[0];
+
 function TopNavbar() {
   return (
     <div className="container1">
       <div className="logo">
         <img alt="reddit" src={logo} />
       </div>
+
       <div className="searchBar">
-        <input type="search" name="Search"></input>
+        <div></div>
+        <input
+          type="search"
+          id="site-search"
+          name="q"
+          aria-label="Search through site content"
+        />
       </div>
+      <div class="topnav"></div>
       <div className="buttons">
         <button type="submit" className="btn1">
           Log In
@@ -17,17 +31,17 @@ function TopNavbar() {
         <button type="submit" className="btn2">
           Sign Up
         </button>
+        <form />
       </div>
 
       <div className="user">
-        <select className="userSelect">
-          <option value="Profile">👥</option>
-          <option value="Settings">Settings</option>
-
-          <option className="userOps">Profile</option>
-
-          <option value="help">Help Center</option>
-        </select>
+        <div className="dropdown">
+          <Dropdown
+            options={options}
+            value={defaultOption}
+            placeholder="User Option"
+          />
+        </div>
       </div>
     </div>
   );
