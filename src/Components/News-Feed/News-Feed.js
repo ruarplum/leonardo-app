@@ -1,3 +1,4 @@
+import Awards from "./Awards";
 import "./News-Feed.css";
 
 import Post from "./Post";
@@ -10,6 +11,7 @@ const Feed = (props) => {
         catagory={post.catagory}
         upVote={post.upVote}
         downVote={post.downVote}
+        awards={post.awards}
       />
     );
   });
