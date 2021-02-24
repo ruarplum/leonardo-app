@@ -1,35 +1,54 @@
-
-.PopNavbar {
-    display: flex;
-    justify-content: space-between;
-    flex-flow: row nowrap;
-    align-items: center;
-
-    border: 1px grey solid;
+.PopNavbar  {
+    background: #fdfbf7;
+    border: 1px #999285 solid;
     border-radius: 4px;
     height: 56px;
-    padding: 0 12px;
-    font: inherit;
+    margin: 40px;
+    padding: 0 2em;
+    
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    
+    /* font: inherit; */
 }
 
 .PopNavbar button {
     border: none;
-    color: #7e8183;
+    color: #999285;
+    background: #eceae8;
+    border-radius: 5px;
+    font-weight: 700;
 }
 
-.PopNavbar button:active {
+/* .PopNavbar button:active {
     color: #026bb6;
-}
-
-.PopNavbar button:hover {
     background: #b4adad;
+} */
+
+.PopNavbar Button:hover {
+    background: #eceae8;
+    background-size: 200%;
     cursor: pointer;
     border-radius: 5px;
 }
 
-.LeftButtons button {
-    /* display: flex; */
-    /* padding: 0 10%; */
+.PopNavbar select {
+    border: none;
+    background: #f6f4f0;
+    border-radius: 10px;
+    color: #999285;
 }
 
+.LeftButtons {
+    display: flex;
+    justify-content: space-around;
+    padding: 0 20px;
+    
+    
+}
 
+/* .PopNavbar Button img {
+    background: #026bb6;
+} */
