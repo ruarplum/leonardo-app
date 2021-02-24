@@ -1,6 +1,6 @@
 import "./TopNavbar.css";
 import logo from "./logo.png";
-
+import Actions from "./actions";
 import { AiOutlineUser } from "react-icons/all";
 import SearchBar from "./searchBar";
 import Dropdown from "react-dropdown";
@@ -17,10 +17,9 @@ function TopNavbar() {
       </div>
 
       <div className="searchBar">
-        <div> </div>
         <SearchBar />
       </div>
-      <div class="topnav"></div>
+
       <div className="buttons">
         <button type="submit" className="btn1">
           Log In
@@ -28,7 +27,6 @@ function TopNavbar() {
         <button type="submit" className="btn2">
           Sign Up
         </button>
-        <form />
       </div>
 
       <div className="user">
