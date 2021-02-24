@@ -24,7 +24,7 @@
     padding-bottom: 2%;
     border-radius: 0.3em;
     background-color:teal;  
-    border: solid grey;
+    border: solid lightgray;
 }
 .listcontcom{
     width: 21%;
@@ -44,7 +44,7 @@
     font-size: 14px;
 }
 .communitycont{
-    border: solid grey;
+    border: solid lightgray;
     border-radius: 0.3em;
     margin-top: -15px;
 }
