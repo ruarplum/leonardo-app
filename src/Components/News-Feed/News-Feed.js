@@ -17,7 +17,7 @@ const Feed = (props) => {
 
   return (
     /* This will create main box for content to sit within*/
-    <div className="feed-box">{posts}</div>
+    <div className="feed-box-wrapper">{posts}</div>
   );
 };
 

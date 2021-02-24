@@ -1,10 +1,10 @@
 import Counter from "./sideBarCounter";
-// import Icon from "../Community-sidebar./assets./logo.png";
+import Icon from "./Reddit-logo.png";
 import Who from "./Who";
 
 const Post = (props) => {
   return (
-    <>
+    <div className="feed-box">
       <div className="feed-sidebar">
         <Counter 
         votes={props.upVote - props.downVote}/>
@@ -16,7 +16,7 @@ const Post = (props) => {
             <Who
               text={props.catagory}
               textWho={`Posted by ${props.author} 12 hours ago`}
-            //   img={Icon}
+               img={Icon}
             />
           </div>
 
@@ -43,7 +43,7 @@ const Post = (props) => {
           <button className="botButton">...</button>
         </div>
       </div>
-    </>
+    </div>
   );
 };
 
