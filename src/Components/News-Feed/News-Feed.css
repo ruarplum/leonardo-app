@@ -11,6 +11,9 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.feed-box-wrapper{
+    flex-wrap: wrap;
+}
 /* right side wrapper */
 .feed-right-wrapper{
     display: flex;
