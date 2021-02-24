@@ -6,9 +6,11 @@ import { TiStarburst } from 'react-icons/all';
 import { FaSortAmountUpAlt } from 'react-icons/fa';
 import { BsThreeDots } from 'react-icons/bs';
 import { BsViewStacked } from 'react-icons/bs';
+import { IoMdArrowDropdown } from 'react-icons/all';
 
 import './Popular-posts-navbar.css'
-import Button from './Button'
+import ButtonOne from './Button'
+import ButtonTwo from './ButtonTwo'
 
 const PopularNavbar = () => {
 
@@ -16,53 +18,54 @@ const PopularNavbar = () => {
         <nav className='PopNavbar'>
 
             {/* //? Split the 6 Items up into Left and Right - 5 left/ 1 right to help split in CSS */}
-            <div className='LeftButtons'>
+            <div className='PopNavButtons'>
+                <div className='FilterButtons'>
+                    <ButtonOne
+                        className='Button HotBtn' text='Hot'
+                        onClick={() => console.log("HotStuff")}
+                        img={<IoFlameSharp />}
+                    />
 
-{/* //? Realised the BEST button is only when logged into the updated Reddit */}
-                {/* <Button className="Button BestBtn"
-                    text='Best'
-                    onClick={() => console.log("Best")}
-                    img={<IoRocketSharp />} /> */}
+                    <ButtonTwo
+                        className='Button Location'
+                        text='United Kingdom'
+                        img={<IoMdArrowDropdown />}>
+                        <option>United Kingdom</option>
+                        <option>South with the Faries</option>
+                        <option>Tup North</option>/
+                    </ButtonTwo>
 
-                <Button className='Button HotBtn' text='Hot'
-                    onClick={() => console.log("HotStuff")}
-                    img={<IoFlameSharp />}
-                />
+                    <ButtonOne
+                        className='Button NewBtn'
+                        text='New'
+                        onClick={() => console.log("New Stuff")}
+                        img={<TiStarburst />}
+                    />
 
-                <select className='Location' placeholder='United Kingdom'>
-                    <option>United Kingdom</option>
-                    <option>South with the Faries</option>
-                    <option>Tup North</option>/
-                </select>
+                    <ButtonOne
+                        className='Button TopBtn'
+                        text='Top'
+                        onClick={() => console.log("Top filter")}
+                        img={<FaSortAmountUpAlt />}
+                    />
 
-                <Button className='Button NewBtn'
-                    text='New'
-                    onClick={() => console.log("New Stuff")}
-                    img={<TiStarburst />}
-                />
+                    <ButtonOne
+                        className='Button ThreeDotsBtn'
+                        text=''
+                        onClick={() => console.log("Menu Expand")}
+                        img={<BsThreeDots />}
+                    />
 
-                <Button className='Button TopBtn'
-                    text='Top'
-                    onClick={() => console.log("Top filter")}
-                    img={<FaSortAmountUpAlt />}
-                />
+                </div>
 
-                <Button className='Button ThreeDotsBtn'
+                <ButtonTwo
+                    className='Button ViewBtn'
                     text=''
-                    onClick={() => console.log("Menu Expand")}
-                    img={<BsThreeDots />}
+                    onClick={() => console.log('View options')}
+                    img={<BsViewStacked />}
+                    img2={<IoMdArrowDropdown />}
                 />
-
             </div>
-            <div className='RightButtons'>
-                <Button className='Button ViewBtn'
-                text=''
-                onClick={() => console.log('View options')}
-                img={<BsViewStacked />}
-                />
-                 
-            </div>
-
         </nav>
     )
 }
