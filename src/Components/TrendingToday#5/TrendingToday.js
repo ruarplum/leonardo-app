@@ -1,4 +1,3 @@
-import React from "react";
 import "./trendingToday.css";
 import tankRussia from "./assets/tankrussia.jpg";
 import birdFlu from "./assets/birdflu.jpg";
@@ -10,7 +9,6 @@ import cMemes from './assets/cMemes.jpeg'
 import cTennis from './assets/cTennis.png'
 
 import News from "./News";
-import { ReactComponent } from "react";
 
 const TrendingToday = () => {
   return (
