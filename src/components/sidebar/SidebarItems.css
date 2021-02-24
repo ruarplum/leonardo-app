@@ -1,12 +1,17 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-.logo1{
-    height: 35%;
-    width: 85%;
+.logos{
+    height: 70%;
+    width: 80%;
     margin-left: 40px;
+    border: 1px solid black;
+    border-radius: 30px;
+    display: flex; 
 }
 .sidebar{
-    width:21%; 
+    width:19%; 
+    margin-left: 65%;
+    margin-top: 10%;
 }
 .communitytitle{
     text-align: left;
@@ -18,7 +23,7 @@
     padding-right: 15%;
     padding-bottom: 2%;
     border-radius: 0.3em;
-    background-color:skyblue;  
+    background-color:teal;  
     border: solid grey;
 }
 .listcont{
@@ -26,24 +31,61 @@
     display: flex;
     flex-direction: row;
     margin-left: 20px;
-    margin-bottom: -55px;
     margin-top: 8px;
 
 }
-.communityList{
-    display: flex;    
+.communityArea{
+    display: flex;     
 }
 .communitytext{
-    margin-left: 45px;
-    margin-bottom: 65px;
+    padding-left: 43px;
+    color: black;
     font-family: "Roboto";
-    font-size: 15px;
-}
-#listno{
-    margin-top: 8px;
+    font-size: 14px;
 }
 .communitycont{
     border: solid grey;
     border-radius: 0.3em;
     margin-top: -15px;
+}
+.viewAll{
+    width: 230px;
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border-radius: 2em;
+    background-color: rgb(0, 121, 211, 1);
+    border-color: rgb(0, 113, 253);
+    color: white;   
+    font-weight: bold;
+    font-size: 13px;
+    font-family: "Roboto";
+
+}
+.firstbutton{
+    display: flex;
+    justify-content: space-evenly;
+}
+.container{
+    height: 40px;
+}
+ 
+.tags{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-around;
+}
+.tag{
+    border: lightgray;
+    color:rgb(0, 121, 211, 1);
+    font-family: "Roboto";
+    font-weight:bolder ;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+button:hover{
+    color: lightgray;
 }
