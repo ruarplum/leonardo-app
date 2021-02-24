@@ -1,5 +1,5 @@
 import "./News-Feed.css";
-import Icon from "../sidebar/logo.png";
+import Icon from "../Community-sidebar/assets/logo.png";
 import Who from "./Who";
 
 const Feed = () => {
