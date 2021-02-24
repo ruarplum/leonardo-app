@@ -8,6 +8,8 @@
     height: auto;
     border-radius: 5px;
     border: 1px solid lightgray;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 /* right side wrapper */
 .feed-right-wrapper{
@@ -57,7 +59,7 @@
     background-color: lightgray;
     border-radius: 9999px;
 }
-.Arrow{
+.upArrow, .downArrow{
     background-color: transparent;
     border: none;
     font-size: 1.8em;
@@ -70,4 +72,16 @@
     color:grey;
     font-weight: lighter;
     font-size: 0.7em;
+    padding: 2px 5px 0px 5px;
+}
+.feed-logo{
+    height: 2em;
+    width: 2em;
+    display: flex; 
+}
+.feed-com-post{
+    display: flex;
+}
+.feed-top-text{
+    padding: 0px 5px 0px 5px;
 }
