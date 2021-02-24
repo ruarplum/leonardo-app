@@ -5,7 +5,7 @@
     display: flex;
     background-color: rgb(255, 255, 255, 1);
     width: 700px;
-    height: 120px;
+    height: auto;
 }
 /* right side wrapper */
 .feed-right-wrapper{
@@ -26,7 +26,7 @@
 
 .feed-sidebar{
     background-color: rgb(248, 249, 250, 1);
-    height: 100px;
+    height: auto;
     text-align: center;
 }
 /* join button */
@@ -43,6 +43,7 @@
 }
 .feed-bottom-bar{
     display: flex;
+    padding-bottom: 0;
 }
 .botButton{
     height: 25px;
