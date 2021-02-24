@@ -1,6 +1,8 @@
 import "./TopNavbar.css";
 import logo from "./logo.png";
 
+import { AiOutlineUser } from "react-icons/all";
+import SearchBar from "./searchBar";
 import Dropdown from "react-dropdown";
 import "react-dropdown/style.css";
 
@@ -15,13 +17,8 @@ function TopNavbar() {
       </div>
 
       <div className="searchBar">
-        <div></div>
-        <input
-          type="search"
-          id="site-search"
-          name="q"
-          aria-label="Search through site content"
-        />
+        <div> </div>
+        <SearchBar />
       </div>
       <div class="topnav"></div>
       <div className="buttons">
