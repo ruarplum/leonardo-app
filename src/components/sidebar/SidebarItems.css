@@ -92,3 +92,9 @@
 .communityviewAll:hover, .communityTag:hover{
     color: lightgray;
 }
+
+@media only screen and (min-width : 480px) {
+    .sidebarcommunity{
+        visibility: hidden;
+    };
+}
