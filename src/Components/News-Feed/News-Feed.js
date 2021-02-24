@@ -1,4 +1,6 @@
 import "./News-Feed.css";
+import Icon from "../sidebar/logo.png";
+import Who from "./Who";
 
 const Feed = () => {
   return (
@@ -13,10 +15,11 @@ const Feed = () => {
       <div className="feed-right-wrapper">
         <div className="feed-right-top">
           <div className="feed-com-post">
-            <h3>
+            <Who text="r/AskReddit" textWho="Posted by u/Nick 12 hours ago" img={Icon} />
+            {/* <h3>
               r/AskReddit{" "}
               <span className="feed-span">Posted by u/nick 12 hours ago</span>
-            </h3>
+            </h3> */}
           </div>
 
           <div className="feed-award">

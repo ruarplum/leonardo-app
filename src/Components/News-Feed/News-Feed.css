@@ -70,4 +70,16 @@
     color:grey;
     font-weight: lighter;
     font-size: 0.7em;
+    padding: 2px 5px 0px 5px;
+}
+.feed-logo{
+    height: 2em;
+    width: 2em;
+    display: flex; 
+}
+.feed-com-post{
+    display: flex;
+}
+.feed-top-text{
+    padding: 0px 5px 0px 5px;
 }
