@@ -1,10 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;1,100;1,200&family=Noto+Sans:wght@400;700&display=swap');
 
-.container {
-  width: 290px;
+.TrendTodayContainer {
+  width: 20%;
   border-radius: 10px;
   height: 180px;
-  background-size: auto;
+  background-size: cover;
   background-repeat: no-repeat;
   color: white;
   text-align: left;
@@ -50,4 +50,17 @@
   border: 1px solid white;
   border-radius: 10px;
   margin-right: 1%;
+}
+
+
+@media (max-width: 990px) {
+  .TrendTodayContainer {
+      width: 45%;
+  }
+}
+
+@media (max-width: 500px) {
+  .TrendTodayContainer {
+    width: 100%;
+}
 }

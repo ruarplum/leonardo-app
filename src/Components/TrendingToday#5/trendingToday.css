@@ -20,7 +20,20 @@
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
+    box-sizing: border-box;
 }
 
+
+@media (max-width: 990px) {
+    .newsContainer .deskView {
+        display: none;
+    }
+}
+
+@media (max-width: 500px) {
+    .newsContainer .tabletView {
+        display: none;
+    }
+}
 
 

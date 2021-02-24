@@ -3,8 +3,8 @@ import "./News.css";
 const News = (props) => {
   return (
     <div
-      className="container"
-      style={{ background:`url(${props.newsImg})`}}
+      className={ "TrendTodayContainer " + `${props.className}`}
+      style={{ backgroundImage: `url(${props.newsImg})`}}
     >
       <div className="textContainer">
         <h3 className="newsTitle">{props.newsTitle}</h3>
