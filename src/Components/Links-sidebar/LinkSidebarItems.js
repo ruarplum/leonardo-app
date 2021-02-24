@@ -27,7 +27,7 @@ const LinkSidebarItems = () => {
                     <div className="LinkSidebar17" id="LinksList">Mod Policy</div>
                 </div>
             </div>
-            <div className="RedditRights">Reddit Inc © 2021.All rights reserved</div>
+            <div className="RedditRights">Reddit Inc © 2021. All rights reserved</div>
         </div>
     )
 }
