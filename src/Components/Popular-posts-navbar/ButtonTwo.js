@@ -1,16 +1,17 @@
-const ButtonOne = (props) => {
+const ButtonTwo = (props) => {
     return (
         <div className={props.className}>
-
+            
             <button
-                className="button"
+                className="buttonTwo"
                 onClick={props.onClick}
             >
-                {props.img}
                 {props.text}
+                {props.img}
+                {props.img2}
             </button>
         </div>
     )
 }
 
-export default ButtonOne
+export default ButtonTwo
