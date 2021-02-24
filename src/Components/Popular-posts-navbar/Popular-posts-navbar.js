@@ -15,58 +15,61 @@ import ButtonTwo from './ButtonTwo'
 const PopularNavbar = () => {
 
     return (
-        <nav className='PopNavbar'>
+        <div className='PopPostsTitle'>
+            Popular Posts
+            <nav className='PopNavbar'>
 
             {/* //? Split the 6 Items up into Left and Right - 5 left/ 1 right to help split in CSS */}
-            <div className='PopNavButtons'>
-                <div className='FilterButtons'>
-                    <ButtonOne
-                        className='Button HotBtn' text='Hot'
-                        onClick={() => console.log("HotStuff")}
-                        img={<IoFlameSharp />}
-                    />
+                <div className='PopNavButtons'>
+                    <div className='FilterButtons'>
+                        <ButtonOne
+                            className='Button HotBtn' text='Hot'
+                            onClick={() => console.log("HotStuff")}
+                            img={<IoFlameSharp />}
+                        />
+
+                        <ButtonTwo
+                            className='Button Location'
+                            text='United Kingdom'
+                            img={<IoMdArrowDropdown />}>
+                            <option>United Kingdom</option>
+                            <option>South with the Faries</option>
+                            <option>Tup North</option>/
+                        </ButtonTwo>
+
+                        <ButtonOne
+                            className='Button NewBtn'
+                            text='New'
+                            onClick={() => console.log("New Stuff")}
+                            img={<TiStarburst />}
+                        />
+
+                        <ButtonOne
+                            className='Button TopBtn'
+                            text='Top'
+                            onClick={() => console.log("Top filter")}
+                            img={<FaSortAmountUpAlt />}
+                        />
+
+                        <ButtonOne
+                            className='Button ThreeDotsBtn'
+                            text=''
+                            onClick={() => console.log("Menu Expand")}
+                            img={<BsThreeDots />}
+                        />
+
+                    </div>
 
                     <ButtonTwo
-                        className='Button Location'
-                        text='United Kingdom'
-                        img={<IoMdArrowDropdown />}>
-                        <option>United Kingdom</option>
-                        <option>South with the Faries</option>
-                        <option>Tup North</option>/
-                    </ButtonTwo>
-
-                    <ButtonOne
-                        className='Button NewBtn'
-                        text='New'
-                        onClick={() => console.log("New Stuff")}
-                        img={<TiStarburst />}
-                    />
-
-                    <ButtonOne
-                        className='Button TopBtn'
-                        text='Top'
-                        onClick={() => console.log("Top filter")}
-                        img={<FaSortAmountUpAlt />}
-                    />
-
-                    <ButtonOne
-                        className='Button ThreeDotsBtn'
+                        className='Button ViewBtn'
                         text=''
-                        onClick={() => console.log("Menu Expand")}
-                        img={<BsThreeDots />}
+                        onClick={() => console.log('View options')}
+                        img={<BsViewStacked />}
+                        img2={<IoMdArrowDropdown />}
                     />
-
                 </div>
-
-                <ButtonTwo
-                    className='Button ViewBtn'
-                    text=''
-                    onClick={() => console.log('View options')}
-                    img={<BsViewStacked />}
-                    img2={<IoMdArrowDropdown />}
-                />
-            </div>
-        </nav>
+            </nav>
+        </div>
     )
 }
 
