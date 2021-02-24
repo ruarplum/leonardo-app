@@ -20,11 +20,11 @@ const Feed = () => {
           </div>
 
           <div className="feed-award">
-            <p>⭐</p>
-            <p>🤝🏼</p>
-            <p>🦭</p>
-            <p>🥄</p>
-            <p>🧸</p>
+            <p>⭐ </p>
+            <p>🤝🏼 </p>
+            <p>🦭 </p>
+            <p>🥄 </p>
+            <p>🧸 </p>
           </div>
 
           <div className="feed-join">

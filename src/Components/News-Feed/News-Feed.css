@@ -5,19 +5,22 @@
     display: flex;
     background-color: rgb(255, 255, 255, 1);
     width: 700px;
-    height: 120px;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid lightgray;
 }
 /* right side wrapper */
 .feed-right-wrapper{
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 10px;
+    padding: 5px 10px 0px 10px;
 }
 
 .feed-right-top{
     display: flex;
     justify-content: space-between;
+    font-size: 0.8em;
 }
 
 .feed-award{
@@ -26,7 +29,7 @@
 
 .feed-sidebar{
     background-color: rgb(248, 249, 250, 1);
-    height: 100px;
+    height: auto;
     text-align: center;
 }
 /* join button */
@@ -43,6 +46,7 @@
 }
 .feed-bottom-bar{
     display: flex;
+    padding-bottom: 0;
 }
 .botButton{
     height: 25px;
@@ -61,4 +65,9 @@
 .join, .botButton, .Arrow{
     outline: none;
     text-decoration: none;
+}
+.feed-span{
+    color:grey;
+    font-weight: lighter;
+    font-size: 0.7em;
 }
