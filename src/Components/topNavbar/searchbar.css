@@ -5,7 +5,7 @@
   border: 1px solid rgb(135, 206, 235);
   background-color: rgb(218, 224, 230);
   box-shadow: 3px 2px 3px rgb(135, 206, 235);
-  border-radius: var[--border-radius];
+  border-radius: 25px;
 }
 .searchbar {
   position: relative;
