@@ -10,6 +10,8 @@
 }
 .sidebar{
     width:19%; 
+    margin-left: 65%;
+    margin-top: 10%;
 }
 .communitytitle{
     text-align: left;
