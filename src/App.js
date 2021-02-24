@@ -18,6 +18,7 @@ function App() {
         </div>
         <div className="sideFeedArea">
           <SidebarItems />
+          <LinkSidebarItems/>
         </div>
       </div>
     </div>
