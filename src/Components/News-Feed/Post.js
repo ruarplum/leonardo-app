@@ -2,7 +2,6 @@ import Counter from "./sideBarCounter";
 import Icon from "./Reddit-logo.png";
 import Who from "./Who";
 import Awards from "./Awards";
-import StarCounter from "./Star-Counter";
 
 const Post = (props) => {
   return (
@@ -23,7 +22,7 @@ const Post = (props) => {
           </div>
 
           <div className="feed-award">
-            <Awards star={props.star}/>
+            <Awards />
             {/* <button>⭐ </button>
             <p>🤝🏼 </p>
             <p>🦭 </p>

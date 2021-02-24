@@ -3,21 +3,17 @@ import "./News-Feed.css";
 import Icon from "../Community-sidebar/assets/logo.png";
 import Who from "./Who";
 import Post from "./Post";
-import StarCounter from "./Star-Counter";
-
 
 const Feed = (props) => {
   const posts = props.posts.map((post) => {
     return (
-      <>
       <Post
         author={post.author}
         catagory={post.catagory}
         upVote={post.upVote}
         downVote={post.downVote}
-        star={post.star}
+        awards={post.awards}
       />
-      </>
     );
   });
 
