@@ -18,7 +18,7 @@
     padding-right: 15%;
     padding-bottom: 2%;
     border-radius: 0.3em;
-    background-color:skyblue;  
+    background-color:teal;  
     border: solid grey;
 }
 .listcont{
@@ -47,3 +47,16 @@
     border-radius: 0.3em;
     margin-top: -15px;
 }
+.viewAll{
+    width: 250px;
+    margin-left: 33px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    border-radius: 2em;
+    background-color: #007AA5;
+    color: white;   
+    font-size: 15px;
+    font-family: "Roboto";
+
+}
+ 
