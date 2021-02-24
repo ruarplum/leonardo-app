@@ -13,7 +13,7 @@ const SidebarItems = () => {
         <div className="sidebar">
             <h2 className="communitytitle">Top News Communities</h2>
             <div className="communitycont">
-                
+
                 <div className="communityListcont">
 
                     <div className="listcont" id="listcont1">
@@ -26,7 +26,7 @@ const SidebarItems = () => {
                     </div>
                     <div className="listcont" id="listcont3">
                         <div id="listno">3</div>
-                        <Sidebar text="r/worldnews" image={globe}/>
+                        <Sidebar text="r/worldnews" image={globe} />
                     </div>
                     <div className="listcont" id="listcont4">
                         <div id="listno">4</div>
@@ -34,17 +34,22 @@ const SidebarItems = () => {
                     </div>
                     <div className="listcont" id="listcont5">
                         <div id="listno">5</div>
-                        <Sidebar text="r/olympics" image={olympics}/>
+                        <Sidebar text="r/olympics" image={olympics} />
                     </div>
 
                 </div>
-                <div className="buttons">
-                    <button type="button" className="viewAll">View All</button>
-                    <br />
-                    <button className="tag1">Top</button>
-                    <button className="tag2">Near You</button>
-                    <button className="tag3">Gaming</button>
-                    <button className="tag4">News</button>
+                <div className="buttons1">
+                    <div className="firstbutton">
+                        <button type="button" className="viewAll">View All</button>
+                    </div>
+                    <div className="buttons2">
+                        <div className="tags">
+                            <button className="tag">Top</button>
+                            <button className="tag">Near You</button>
+                            <button className="tag">Gaming</button>
+                            <button className="tag">News</button>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>

@@ -2,7 +2,7 @@ const Sidebar = (props) => {
     return (
         <div className="container">
 
-            <div className="communityList">
+            <div className="communityArea">
                 <div className="imagelogo">
                     <img src={props.image} alt={props.text} className="logos" />
                 </div>
