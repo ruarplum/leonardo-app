@@ -18,6 +18,7 @@ const TrendingToday = () => {
       <h2 className="contTitle">Trending Today</h2>
       <div className="newsContainer">
         <News
+          className="phoneView"
           newsImg={tankRussia}
           newsTitle="Snow Tank"
           newsSubtitle="The world's record book Guinness officials are looking for the guy before climate change will be effected on the tank. "
@@ -25,6 +26,7 @@ const TrendingToday = () => {
           commName="r/cMemes"
         />
         <News
+          className="tabletView"
           newsImg={birdFlu}
           newsTitle="Bird flu"
           newsSubtitle="Humans infected with H5N8 strain for first time in Russia"
@@ -32,6 +34,7 @@ const TrendingToday = () => {
           commName="r/worldnews"
  />
         <News
+        className="deskView"
           newsImg={daftPunk}
           newsTitle="R.I.P Daft Punk 1993-2021."
           newsSubtitle="Thanks Daft Punk"
@@ -39,6 +42,7 @@ const TrendingToday = () => {
           commName="r/cMemes"
         />
         <News
+        className="deskView"  
           newsImg={novakDjokovic}
           newsTitle="Djokovic"
           newsSubtitle="'It hurts. I'm a human being': Australian Open champion Novak Djokovic responds to criticism"
