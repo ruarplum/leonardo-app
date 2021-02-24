@@ -1,31 +1,57 @@
 .PopNavbar  {
     background: #fdfbf7;
-    border: 1px #999285 solid;
+    /* border: 1px #999285 solid; */
     border-radius: 4px;
-    height: 56px;
     margin: 40px;
-    padding: 0 2em;
-    
+    padding: 20px 40px;
+}
+
+.PopNavButtons {
     display: flex;
     justify-content: space-between;
     align-items: center;
 
-    
-    /* font: inherit; */
+    /* border: 2px solid red; */
 }
 
-.PopNavbar button {
+.FilterButtons {
+    display: flex;
+}
+
+.Button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.Location {
+    color: #026bb6;
+}
+
+.PopNavbar svg {
+    width: 20px;
+    height: 20px;
+}
+.PopNavButtons text {
+    color: red;
+}
+
+
+.ViewBtn svg{
+    color: #026bb6;    
+}
+
+.PopNavbar Button {
     border: none;
     color: #999285;
-    background: #eceae8;
-    border-radius: 5px;
+    background: transparent;
+    border-radius: 10px;
     font-weight: 700;
 }
 
-/* .PopNavbar button:active {
+.PopNavbar button:active {
     color: #026bb6;
     background: #b4adad;
-} */
+}
 
 .PopNavbar Button:hover {
     background: #eceae8;
@@ -34,21 +60,11 @@
     border-radius: 5px;
 }
 
-.PopNavbar select {
-    border: none;
-    background: #f6f4f0;
-    border-radius: 10px;
-    color: #999285;
-}
-
-.LeftButtons {
-    display: flex;
-    justify-content: space-around;
-    padding: 0 20px;
-    
-    
-}
 
 /* .PopNavbar Button img {
     background: #026bb6;
 } */
+
+@media only screen and (min-width: 960px) {
+    /* All buttons on left side compile into one  */
+}
