@@ -1,5 +1,5 @@
-import react from "React";
-import LinkSidebarItems from "./LinkSidebarItems";
+import React from "react";
+import LinkSidebar from "./LinkSidebar";
 import "./LinkSIdebarItems.css";
 
 const LinkSidebarItems = () => {
