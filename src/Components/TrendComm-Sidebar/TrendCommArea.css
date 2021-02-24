@@ -1,0 +1,30 @@
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,700;1,100;1,200&family=Noto+Sans:wght@400;700&display=swap");
+
+.trendCommCont {
+  background-color: white;
+  border: 1px solid rgb(201, 201, 201);
+  border-radius: 2px;
+  width: 316px;
+  height: 316px;
+}
+
+.trendCommTitle {
+  font-size: 0.95em;
+  font-family: "IBM Plex Sans", Arial, sans-serif;
+  font-weight: 700;
+}
+
+.trendCommFeed {
+  margin: 5%;
+  width: 90%;
+  height: 90%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+@media (max-width: 680px) {
+    .trendCommCont {
+        display: none;
+    }
+}
