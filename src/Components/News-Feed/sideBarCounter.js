@@ -23,7 +23,9 @@ class Counter extends React.Component {
         <button className="upArrow" onClick={this.addClick}>
           {this.state.count}
         </button>
-        <button className="downArrow" onClick={this.removeClick}>{this.state.count}</button>
+        <button className="downArrow" onClick={this.removeClick}>
+          {this.state.count}
+        </button>
       </div>
     );
   }

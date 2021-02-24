@@ -17,7 +17,11 @@ const Feed = () => {
       <div className="feed-right-wrapper">
         <div className="feed-right-top">
           <div className="feed-com-post">
-            <Who text="r/AskReddit" textWho="Posted by u/Nick 12 hours ago" img={Icon} />
+            <Who
+              text="r/AskReddit"
+              textWho="Posted by u/Nick 12 hours ago"
+              img={Icon}
+            />
           </div>
 
           <div className="feed-award">
