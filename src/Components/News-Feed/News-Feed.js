@@ -16,10 +16,6 @@ const Feed = () => {
         <div className="feed-right-top">
           <div className="feed-com-post">
             <Who text="r/AskReddit" textWho="Posted by u/Nick 12 hours ago" img={Icon} />
-            {/* <h3>
-              r/AskReddit{" "}
-              <span className="feed-span">Posted by u/nick 12 hours ago</span>
-            </h3> */}
           </div>
 
           <div className="feed-award">
