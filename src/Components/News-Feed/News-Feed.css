@@ -1,0 +1,64 @@
+.feed-box *{ margin:0; box-sizing:border-box; }
+
+/* container */
+  .feed-box{
+    display: flex;
+    background-color: rgb(255, 255, 255, 1);
+    width: 700px;
+    height: 120px;
+}
+/* right side wrapper */
+.feed-right-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    padding: 10px;
+}
+
+.feed-right-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+.feed-award{
+    display: flex;
+}
+
+.feed-sidebar{
+    background-color: rgb(248, 249, 250, 1);
+    height: 100px;
+    text-align: center;
+}
+/* join button */
+.join{
+    background-color: rgb(0, 121, 211, 1);
+    color: white;
+    font-weight: bold;
+    border-radius: 9999px;
+    display: flex;
+}
+.feed-main, .feed-bottom-bar{
+    text-align: left;
+    padding: 5px 0px;
+}
+.feed-bottom-bar{
+    display: flex;
+}
+.botButton{
+    height: 25px;
+    background-color: transparent;
+    border: none;
+}
+.botButton:hover, .Arrow:hover{
+    background-color: lightgray;
+    border-radius: 9999px;
+}
+.Arrow{
+    background-color: transparent;
+    border: none;
+    font-size: 1.8em;
+}
+.join, .botButton, .Arrow{
+    outline: none;
+    text-decoration: none;
+}
