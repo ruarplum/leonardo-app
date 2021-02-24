@@ -4,7 +4,7 @@ const Sidebar = (props) => {
 
             <div className="communityList">
                 <div className="imagelogo">
-                    <img src={props.image} alt={props.text} className="logo1" />
+                    <img src={props.image} alt={props.text} className="logos" />
                 </div>
                 <div className="communitytext">
                     <p>{props.text}</p>

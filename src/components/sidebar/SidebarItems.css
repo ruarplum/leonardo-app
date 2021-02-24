@@ -1,9 +1,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-.logo1{
+.logos{
     height: 35%;
     width: 85%;
     margin-left: 40px;
+    border: 1px solid black;
+    border-radius: 20px;
 }
 .sidebar{
     width:21%; 

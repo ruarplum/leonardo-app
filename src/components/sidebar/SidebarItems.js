@@ -1,6 +1,11 @@
 import React from "react";
 import Sidebar from "./Sidebar";
 import logo from "./logo.png";
+import tech from "./tech.png";
+import globe from "./globe.jpg";
+import game from "./game.png";
+import olympics from "./olympics.png";
+
 import "./SidebarItems.css";
 
 const SidebarItems = () => {
@@ -17,19 +22,19 @@ const SidebarItems = () => {
                     </div>
                     <div className="listcont" id="listcont2">
                         <div id="listno">2</div>
-                        <Sidebar text="r/technews" image={logo} />
+                        <Sidebar text="r/technews" image={tech} />
                     </div>
                     <div className="listcont" id="listcont3">
                         <div id="listno">3</div>
-                        <Sidebar text="r/worldnews" image={logo} />
+                        <Sidebar text="r/worldnews" image={globe}/>
                     </div>
                     <div className="listcont" id="listcont4">
                         <div id="listno">4</div>
-                        <Sidebar text="r/gamernews" image={logo} />
+                        <Sidebar text="r/gamernews" image={game} />
                     </div>
                     <div className="listcont" id="listcont5">
                         <div id="listno">5</div>
-                        <Sidebar text="r/olympics" image={logo} />
+                        <Sidebar text="r/olympics" image={olympics}/>
                     </div>
 
                 </div>
