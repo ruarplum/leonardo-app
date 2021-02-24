@@ -1,5 +1,5 @@
 import Counter from "./sideBarCounter";
-import Icon from "../sidebar/logo.png";
+// import Icon from "../Community-sidebar./assets./logo.png";
 import Who from "./Who";
 
 const Post = (props) => {
@@ -16,7 +16,7 @@ const Post = (props) => {
             <Who
               text={props.catagory}
               textWho={`Posted by ${props.author} 12 hours ago`}
-              img={Icon}
+            //   img={Icon}
             />
           </div>
 
