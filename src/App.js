@@ -11,9 +11,9 @@ import "./App.css";
 
 function App() {
   const postList = [
-    {author:"u/Nick", catagory:"r/Reddit", upVote:2, downVote:6, awards:{star:5, help:2, seal:17, spoon:0, hugz:12}},
-    {author:"u/Dan", catagory:"r/Pink", upVote:12, downVote:1},
-    {author:"u/Tom", catagory:"r/Blue", upVote:6, downVote:5},
+    {author:"u/Nick", catagory:"r/Reddit", upVote:2, downVote:6, star:5, help:2, seal:17, spoon:0, hugz:12},
+    {author:"u/Dan", catagory:"r/Pink", upVote:12, downVote:1, star:6},
+    {author:"u/Tom", catagory:"r/Blue", upVote:6, downVote:5, star:12},
     {author:"u/Tim", catagory:"r/Red", upVote:20, downVote:4},
   ]
 

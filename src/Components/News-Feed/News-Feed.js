@@ -1,4 +1,3 @@
-import Awards from "./Awards";
 import "./News-Feed.css";
 import Icon from "../Community-sidebar/assets/logo.png";
 import Who from "./Who";
@@ -12,7 +11,8 @@ const Feed = (props) => {
         catagory={post.catagory}
         upVote={post.upVote}
         downVote={post.downVote}
-        awards={post.awards}
+        star={post.star}
+        help={post.help}
       />
     );
   });
