@@ -1,7 +1,7 @@
 import "./News-Feed.css";
 import Icon from "../sidebar/logo.png";
 import Who from "./Who";
-import Counter from "./Counter";
+import Counter from "./sideBarCounter";
 
 const Feed = () => {
   return (
