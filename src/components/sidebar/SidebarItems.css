@@ -12,7 +12,6 @@
     background-color: white;
     width:19%; 
     margin-left: 65%;
-    margin-top: 10%;
 }
 .communitytitle{
     text-align: left;
@@ -92,3 +91,11 @@
 .communityviewAll:hover, .communityTag:hover{
     color: lightgray;
 }
+
+
+@media only screen and (max-width : 500px) {
+    .sidebarcommunity{
+        visibility: hidden;
+    };
+}
+ 
