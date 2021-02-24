@@ -32,6 +32,7 @@
   flex-direction: row;
   align-content: flex-end;
   justify-content: space-between;
+  height: 9vh;
 }
 .searchBar,
 input {
