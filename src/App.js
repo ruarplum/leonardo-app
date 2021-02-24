@@ -4,6 +4,7 @@ import Feed from "./Components/News-Feed/News-Feed";
 import TrendingToday from "./Components/TrendingToday#5/TrendingToday";
 import PopularNavbar from "./Components/Popular-posts-navbar/Popular-posts-navbar";
 import SidebarItems from "./Components/sidebar/SidebarItems";
+import TrendCommArea from './Components/TrendComm-Sidebar/TrendCommArea';
 import "./App.css";
 
 function App() {
@@ -18,6 +19,7 @@ function App() {
         </div>
         <div className="sideFeedArea">
           <SidebarItems />
+          <TrendCommArea />
         </div>
       </div>
     </div>
