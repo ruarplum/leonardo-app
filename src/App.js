@@ -7,6 +7,13 @@ import SidebarItems from "./Components/sidebar/SidebarItems";
 import "./App.css";
 
 function App() {
+  const postList = [
+    {author:"u/Nick", catagory:"r/Reddit", upVote:2, downVote:6, awards:{silver:5}},
+    {author:"u/Dan", catagory:"r/Pink", upVote:12, downVote:1},
+    {author:"u/Tom", catagory:"r/Blue", upVote:6, downVote:5},
+    {author:"u/Tim", catagory:"r/Red", upVote:20, downVote:4},
+  ]
+
   return (
     <div className="App">
       <TopNavbar />
@@ -14,7 +21,7 @@ function App() {
       <div className="mainFeedArea">
         <div className="currentFeedArea">
           <PopularNavbar />
-          <Feed />
+          <Feed posts={postList}/>
         </div>
         <div className="sideFeedArea">
           <SidebarItems />
