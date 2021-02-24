@@ -4,6 +4,7 @@ import Feed from "./Components/News-Feed/News-Feed";
 import TrendingToday from "./Components/TrendingToday#5/TrendingToday";
 import PopularNavbar from "./Components/Popular-posts-navbar/Popular-posts-navbar";
 import TrendCommArea from './Components/TrendComm-Sidebar/TrendCommArea';
+import PopCommArea from "./Components/PopComm-sidebar/PopCommArea"
 import SidebarItems from "./Components/Community-sidebar/SidebarItems";
 import PremiumSidebar from "./Components/Premium-sidebar/PremiumSidebar";
 import LinkSidebarItems from "./Components/Links-sidebar/LinkSidebarItems";
@@ -30,6 +31,7 @@ function App() {
           <SidebarItems />
           <PremiumSidebar/>
           <TrendCommArea />
+          <PopCommArea/>
           <LinkSidebarItems/>
         </div>
       </div>
