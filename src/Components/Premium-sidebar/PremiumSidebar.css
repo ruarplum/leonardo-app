@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.PremiumSidebar{
+    width: 19%;
+    background-color: white;
+    margin-left: 65%;
+    border-radius: 0.3em;
+    border:solid lightgray;
+    font-family: "Roboto";
+    display: flex;
+}
+.PremiumLogo{
+    width: 33px;
+    height: 33px;
+}
+#PremiumContainer1{
+    margin-top: 20px;
+    margin-left: 10px;
+}
+#PremiumContainer2{
+    font-size: 11px;
+    margin-left: 9px;
+}
+#PremiumContainer3{
+    margin-right: 8px;
+    margin-top: 20px;
+}
+.PremiumButton{
+    background-color: orangered;
+    border-color: orangered;
+    font-weight: bolder;
+    color: white;
+    width: 100px;
+    border-radius: 3em;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    margin-top: 11px;
+}
+#PremiumContainer3:hover{
+    color: lightgray;
+}
+#PremiumDescription{
+    font-weight: bolder;
+}

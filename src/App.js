@@ -5,6 +5,7 @@ import TrendingToday from "./Components/TrendingToday#5/TrendingToday";
 import PopularNavbar from "./Components/Popular-posts-navbar/Popular-posts-navbar";
 import TrendCommArea from './Components/TrendComm-Sidebar/TrendCommArea';
 import SidebarItems from "./Components/Community-sidebar/SidebarItems";
+import PremiumSidebar from "./Components/Premium-sidebar/PremiumSidebar";
 import LinkSidebarItems from "./Components/Links-sidebar/LinkSidebarItems";
 import "./App.css";
 
@@ -27,6 +28,7 @@ function App() {
         </div>
         <div className="sideFeedArea">
           <SidebarItems />
+          <PremiumSidebar/>
           <TrendCommArea />
           <LinkSidebarItems/>
         </div>
