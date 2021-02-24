@@ -7,9 +7,9 @@ const Feed = () => {
     /* This will create main box for content to sit within*/
     <div className="feed-box">
       <div className="feed-sidebar">
-        <button className="Arrow">⬆</button>
+        <button className="upArrow">⬆</button>
         <p className="arrowNumber">number</p>
-        <button className="Arrow">⬇</button>
+        <button className="downArrow">⬇</button>
       </div>
 
       <div className="feed-right-wrapper">
