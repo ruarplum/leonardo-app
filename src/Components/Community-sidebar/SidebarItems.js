@@ -1,10 +1,10 @@
 import React from "react";
 import Sidebar from "./Sidebar";
-import logoreddit from "./logo.png";
-import technologyLogo from "./tech.png";
-import globelogo from "./globe.jpg";
-import gamerlogo from "./game.png";
-import olympicslogo from "./olympics.png";
+import logoreddit from "./assets/logo.png";
+import technologyLogo from "./assets/tech.png";
+import globelogo from "./assets/globe.jpg";
+import gamerlogo from "./assets/game.png";
+import olympicslogo from "./assets/olympics.png";
 
 import "./SidebarItems.css";
 

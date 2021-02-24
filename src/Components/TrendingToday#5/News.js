@@ -3,7 +3,7 @@ import "./News.css";
 const News = (props) => {
   return (
     <div
-      className={ "TrendTodayContainer " + `${props.className}`}
+      className={ `TrendTodayContainer ${props.className}`}
       style={{ backgroundImage: `url(${props.newsImg})`}}
     >
       <div className="textContainer">

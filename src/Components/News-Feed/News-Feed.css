@@ -5,19 +5,24 @@
     display: flex;
     background-color: rgb(255, 255, 255, 1);
     width: 700px;
-    height: 120px;
+    height: auto;
+    border-radius: 5px;
+    border: 1px solid lightgray;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 /* right side wrapper */
 .feed-right-wrapper{
     display: flex;
     flex-direction: column;
     width: 100%;
-    padding: 10px;
+    padding: 5px 10px 0px 10px;
 }
 
 .feed-right-top{
     display: flex;
     justify-content: space-between;
+    font-size: 0.8em;
 }
 
 .feed-award{
@@ -26,7 +31,7 @@
 
 .feed-sidebar{
     background-color: rgb(248, 249, 250, 1);
-    height: 100px;
+    height: auto;
     text-align: center;
 }
 /* join button */
@@ -43,22 +48,41 @@
 }
 .feed-bottom-bar{
     display: flex;
+    padding-bottom: 0;
 }
 .botButton{
     height: 25px;
     background-color: transparent;
     border: none;
 }
-.botButton:hover, .Arrow:hover{
+.botButton:hover, .upArrow:hover, .downArrow:hover{
     background-color: lightgray;
     border-radius: 9999px;
 }
-.Arrow{
+.upArrow, .downArrow{
     background-color: transparent;
     border: none;
     font-size: 1.8em;
 }
-.join, .botButton, .Arrow{
+
+.join, .botButton, .upArrow, .downArrow{
     outline: none;
     text-decoration: none;
+}
+.feed-span{
+    color:grey;
+    font-weight: lighter;
+    font-size: 0.7em;
+    padding: 2px 5px 0px 5px;
+}
+.feed-logo{
+    height: 2em;
+    width: 2em;
+    display: flex; 
+}
+.feed-com-post{
+    display: flex;
+}
+.feed-top-text{
+    padding: 0px 5px 0px 5px;
 }
