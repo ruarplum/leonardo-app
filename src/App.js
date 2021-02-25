@@ -91,7 +91,10 @@ function App() {
 
   return (
     <div className="App">
-      {/* <TopNavbar /> */}
+      <div className="navbar">
+        <TopNavbar />
+      </div>
+
       <TrendingToday />
       <div className="mainFeedArea">
         <div className="currentFeedArea">
@@ -99,7 +102,6 @@ function App() {
           <Feed posts={postList} />
         </div>
         <div className="sideFeedArea">
-          <TopNavbar />
           <SidebarItems />
           <AdvertSidebar />
           <PremiumSidebar />
