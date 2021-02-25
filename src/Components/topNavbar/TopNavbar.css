@@ -1,7 +1,15 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap");
 
 /*  */
-
+.container1 {
+  background-color: white;
+  align-content: center;
+  display: flex;
+  flex-direction: row;
+  align-content: flex-end;
+  justify-content: space-between;
+  height: 9vh;
+}
 .user {
   padding-top: 30px;
   height: 10px;
@@ -23,15 +31,7 @@
   padding: 1vh;
   color: rgb(135, 206, 235);
 }
-.container1 {
-  background-color: white;
-  align-content: center;
-  display: flex;
-  flex-direction: row;
-  align-content: flex-end;
-  justify-content: space-between;
-  height: 9vh;
-}
+
 .searchBar,
 input {
   border-radius: 15px;
