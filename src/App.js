@@ -13,10 +13,10 @@ import "./App.css";
 
 function App() {
   const postList = [
-    {author:"u/Nick", catagory:"r/Reddit", upVote:2, downVote:6, star:5, help:2, seal:17, spoon:0, hugz:12, time:12},
-    {author:"u/Dan", catagory:"r/Pink", upVote:12, downVote:1, star:6, help:0, seal:2, spoon:6, hugz:7, time:6},
-    {author:"u/Tom", catagory:"r/Blue", upVote:6, downVote:5, star:12, help:3, seal:2, spoon:19, hugz:0, time:8},
-    {author:"u/Tim", catagory:"r/Red", upVote:20, downVote:4, star:1, help:3, seal:1, spoon:0, hugz:0, time:1},
+    {author:"u/Nick", catagory:"r/Reddit", upVote:2, downVote:6, star:5, help:2, seal:17, spoon:0, hugz:12, time:12, text:"This is the main body text for the first post"},
+    {author:"u/Dan", catagory:"r/Pink", upVote:12, downVote:1, star:6, help:0, seal:2, spoon:6, hugz:7, time:6, text:"Text for the second post"},
+    {author:"u/Tom", catagory:"r/Blue", upVote:6, downVote:5, star:12, help:3, seal:2, spoon:19, hugz:0, time:8, text:"test text for post 3"},
+    {author:"u/Tim", catagory:"r/Red", upVote:20, downVote:4, star:1, help:3, seal:1, spoon:0, hugz:0, time:1, text:"The final post 4 text"},
   ]
 
   return (

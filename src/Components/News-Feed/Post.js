@@ -35,7 +35,7 @@ const Post = (props) => {
           </div>
         </div>
         <div className="feed-main">
-          <p>This is test text</p>
+          <p>{props.text}</p>
         </div>
 
         <div className="feed-bottom-bar">
