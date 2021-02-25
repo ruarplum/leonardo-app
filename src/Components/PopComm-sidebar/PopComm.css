@@ -1,7 +1,6 @@
 .popCommAreas {
+  margin: 4%;
   border: 1px solid white;
-  box-sizing: border-box;
-  height: 150px;
-  display: flex;
-  flex-wrap: wrap;
+  box-sizing: content-box;
+  height: fit-content;
 }
