@@ -20,3 +20,9 @@
     height: 240px;
     padding-left: 3px;
 }
+
+@media (max-width: 680px) {
+    .AdvertSidebar{
+        display: none;
+    }
+}
