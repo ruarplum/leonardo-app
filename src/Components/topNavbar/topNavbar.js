@@ -34,7 +34,7 @@ function TopNavbar() {
         <Actions />
         <div className="dropdown">
           <div class="dropdown">
-            <button onclick="myFunction()" class="dropbtn">
+            <button onClick="myFunction()" className="dropbtn">
               <IoMdArrowDropdown />
             </button>
           </div>
