@@ -16,7 +16,7 @@ const Post = (props) => {
           <div className="feed-com-post">
             <Who
               text={props.catagory}
-              textWho={`Posted by ${props.author} 12 hours ago`}
+              textWho={`Posted by ${props.author} ${props.time} hours ago`}
                img={Icon}
             />
           </div>

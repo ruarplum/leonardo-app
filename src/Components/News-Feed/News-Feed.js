@@ -16,6 +16,7 @@ const Feed = (props) => {
         seal={post.seal}
         spoon={post.spoon}
         hugz={post.hugz}
+        time={post.time}
       />
     );
   });
