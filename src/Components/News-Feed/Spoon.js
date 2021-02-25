@@ -6,7 +6,7 @@ const SpoonCounter = (props) => {
   return (
     <div>
       <button
-        className="feed-spoon"
+        className="feed-award-button"
         onClick={() => setSpoonCount(spoonCounter + 1)}
       >
         🥄 {spoonCounter}

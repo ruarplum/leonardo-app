@@ -6,7 +6,7 @@ const StarCounter = (props) => {
   return (
     <div>
       <button
-        className="feed-star"
+        className="feed-award-button"
         onClick={() => setStarCount(starCounter + 1)}
       >
         ⭐ {starCounter}
