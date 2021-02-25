@@ -13,6 +13,9 @@ const Feed = (props) => {
         downVote={post.downVote}
         star={post.star}
         help={post.help}
+        seal={post.seal}
+        spoon={post.spoon}
+        hugz={post.hugz}
       />
     );
   });

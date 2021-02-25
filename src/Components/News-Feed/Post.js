@@ -24,7 +24,10 @@ const Post = (props) => {
           <div className="feed-award">
             <Awards 
             star={props.star}
-            help={props.help}/>
+            help={props.help}
+            seal={props.seal} 
+            spoon={props.spoon}
+            hugz={props.hugz}/>
             {/* <button>⭐ </button>
             <p>🤝🏼 </p>
             <p>🦭 </p>
