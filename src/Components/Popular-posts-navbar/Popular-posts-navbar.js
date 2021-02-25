@@ -12,7 +12,7 @@ import './Popular-posts-navbar.css'
 import ButtonOne from './Button'
 import ButtonTwo from './ButtonTwo'
 
-const PopularNavbar = () => {
+const PopularNavbar = (props) => {
 
     return (
         <div className='PopPostsTitle'>
@@ -40,7 +40,7 @@ const PopularNavbar = () => {
                         <ButtonOne
                             className='Button NewBtn'
                             text='New'
-                            onClick={() => console.log("New Stuff")}
+                            onClick={() => props.sortByNew ()}
                             img={<TiStarburst />}
                         />
 
