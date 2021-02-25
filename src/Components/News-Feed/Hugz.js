@@ -6,7 +6,7 @@ const HugzCounter = (props) => {
   return (
     <div>
       <button
-        className="feed-hugz"
+        className="feed-award-button"
         onClick={() => setHugzCount(hugzCounter + 1)}
       >
         🧸 {hugzCounter}
