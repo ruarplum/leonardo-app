@@ -5,13 +5,14 @@ import technologyLogo from "./assets/tech.png";
 import globelogo from "./assets/globe.jpg";
 import gamerlogo from "./assets/game.png";
 import olympicslogo from "./assets/olympics.png";
+import pattern from "./assets/pattern.jpg";
 
 import "./SidebarItems.css";
 
 const SidebarItems = () => {
     return (
         <div className="sidebarcommunity">
-            <h2 className="communitytitle">Top News Communities</h2>
+            <h2 className="communitytitle" style={{backgroundImage:`url(${pattern})`}}>Top News Communities</h2>
             <div className="communitycont">
 
                 <div className="communityListcont">
