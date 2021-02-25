@@ -43,9 +43,13 @@ input {
   padding-left: 4vh;
   height: 4vh;
 }
+.dropbtn {
+  border: none;
+  border-radius: 25px;
+}
 .buttons {
   padding-top: 3vh;
-  max-height: 6vh;
+  max-height: 5vh;
   display: flex;
   align-content: flex-end;
   padding-bottom: 1vh;

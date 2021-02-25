@@ -33,12 +33,11 @@ function TopNavbar() {
       <div className="user">
         <Actions />
         <div className="dropdown">
-          <IoMdArrowDropdown />
-          {/* <Dropdown
-            options={options}
-            value={defaultOption}
-            placeholder="User Option"
-          /> */}
+          <div class="dropdown">
+            <button onclick="myFunction()" class="dropbtn">
+              <IoMdArrowDropdown />
+            </button>
+          </div>
         </div>
       </div>
     </div>
