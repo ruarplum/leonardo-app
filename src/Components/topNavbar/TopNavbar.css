@@ -8,7 +8,7 @@
   flex-direction: row;
   align-content: flex-end;
   justify-content: space-between;
-  height: 9vh;
+  height: 68px;
 }
 .user {
   padding-top: 30px;
@@ -17,29 +17,15 @@
   flex-direction: row;
   justify-content: space-between;
 }
-.userSelect {
-  height: 50px;
-  background-color: white;
-  border: rgb(135, 206, 235) solid 1px;
-  width: 7vh;
-  border-radius: 50px;
-  transition: ease-out 0.5s;
-  font-size: 2rem;
-  outline: none;
-  font-size: 1rem;
-  font-family: "Source Sans Pro", sans-serif;
-  padding: 1vh;
-  color: rgb(135, 206, 235);
-}
 
 .searchBar,
 input {
-  border-radius: 15px;
-  padding-top: 2vh;
+  border-radius: 5px;
+  padding-top: 10px;
   width: 70vh;
 }
 [alt="reddit"] {
-  padding-top: 4vh;
+  padding-top: 3vh;
   padding-left: 4vh;
   height: 4vh;
 }
@@ -67,45 +53,44 @@ input {
 }
 .searchBar {
   font-family: "Source Sans Pro", sans-serif;
-  position: center;
+  position: relative;
 
-  border-radius: 40px;
-  padding: 4vh;
+  padding: 3vh;
 }
 .search {
-  height: 4vh;
+  height: 1vh;
 }
 .btn1 {
-  color: rgb(135, 206, 235);
+  color: rgb(0, 121, 211);
   box-shadow: inset 0 0 0 0;
   font-family: "Source Sans Pro", sans-serif;
   background-color: white;
-  border: rgb(135, 206, 235) solid 1px;
-  width: 100px;
-  border-radius: 5px;
+  border: rgb(0, 121, 211) solid 1px;
+  width: 120px;
+  border-radius: 25px;
   transition: ease-out 0.5s;
-  font-size: 2rem;
+  font-size: 1rem;
   outline: none;
 }
 .btn1:hover {
   color: white;
-  box-shadow: inset 300px 0 0 0 rgb(135, 206, 235);
+  box-shadow: inset 300px 0 0 0 rgb(0, 121, 211);
 }
 .btn2 {
   color: white;
   box-shadow: inset 0 0 0 0;
   font-family: "Source Sans Pro", sans-serif;
-  background-color: rgb(135, 206, 235);
+  background-color: rgb(0, 121, 211);
   border: white solid 1px;
-  width: 100px;
-  border-radius: 5px;
+  width: 120px;
+  border-radius: 25px;
   transition: ease-out 0.5s;
-  font-size: 1.5rem;
+  font-size: 1rem;
   outline: none;
 }
 
 .btn2:hover {
-  color: rgb(135, 206, 235);
+  color: rgb(0, 121, 211);
   box-shadow: inset 300px 0 0 0 white;
 }
 .userBox {

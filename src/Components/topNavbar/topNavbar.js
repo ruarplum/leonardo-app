@@ -30,11 +30,7 @@ function TopNavbar() {
       <div className="user">
         <Actions />
         <div className="dropdown">
-          <div className="dropdown">
-            <button className="dropbtn">
-              <IoMdArrowDropdown />
-            </button>
-          </div>
+          <div className="dropdown"></div>
         </div>
       </div>
     </div>

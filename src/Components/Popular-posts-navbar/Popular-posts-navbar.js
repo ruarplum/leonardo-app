@@ -24,7 +24,7 @@ const PopularNavbar = (props) => {
                     <div className='FilterButtons'>
                         <ButtonOne
                             className='Button HotBtn' text='Hot'
-                            onClick={() => console.log("HotStuff")}
+                            onClick={() => props.sortBy(props.sortHot)}
                             img={<IoFlameSharp />}
                         />
 
@@ -40,14 +40,14 @@ const PopularNavbar = (props) => {
                         <ButtonOne
                             className='Button NewBtn'
                             text='New'
-                            onClick={() => props.sortByNew ()}
+                            onClick={() => props.sortBy(props.sortNew)}
                             img={<TiStarburst />}
                         />
 
                         <ButtonOne
                             className='Button TopBtn'
                             text='Top'
-                            onClick={() => console.log("Top filter")}
+                            onClick={() => props.sortBy(props.sortTop)}
                             img={<FaSortAmountUpAlt />}
                         />
 
