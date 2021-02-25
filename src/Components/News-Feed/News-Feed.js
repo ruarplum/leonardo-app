@@ -1,6 +1,4 @@
 import "./News-Feed.css";
-import Icon from "../Community-sidebar/assets/logo.png";
-import Who from "./Who";
 import Post from "./Post";
 
 const Feed = (props) => {
