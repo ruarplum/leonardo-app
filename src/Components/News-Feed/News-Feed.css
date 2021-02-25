@@ -68,7 +68,7 @@
     font-size: 1.8em;
 }
 
-.join, .botButton, .upArrow, .downArrow{
+.join, .botButton, .upArrow, .downArrow, .feed-award-button{
     outline: none;
     text-decoration: none;
 }
