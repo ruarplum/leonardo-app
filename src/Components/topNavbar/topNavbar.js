@@ -7,9 +7,6 @@ import SearchBar from "./searchBar";
 import Dropdown from "react-dropdown";
 import "react-dropdown/style.css";
 
-const options = ["Settings", "Dark Mode", "Help Center"];
-const defaultOption = options[0];
-
 function TopNavbar() {
   return (
     <div className="container1">

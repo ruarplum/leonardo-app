@@ -6,6 +6,7 @@
   background-color: rgb(218, 224, 230);
   box-shadow: 5px 4px 3px rgb(135, 206, 235);
   border-radius: 25px;
+  padding-bottom: 8px;
 }
 .searchbar {
   position: relative;
