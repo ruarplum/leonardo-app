@@ -42,7 +42,7 @@ function App() {
     {
       author: "u/Tom",
       catagory: "r/Blue",
-      upVote: 6,
+      upVote: 22,
       downVote: 5,
       star: 12,
       help: 3,
@@ -66,10 +66,16 @@ function App() {
       text: "This is image of whale",
     },
   ]);
+//*---------- Button functions on popNavbar-------
+  const sortBy = (fn) => {
+    setPostList([...postList.sort(fn)])
+  }
 
-  const sortByNew = () => {
-    console.log(postList.time);
-  };
+  const sortNew = (a, b) => a.time - b.time
+
+  const sortHot = (a, b) => (b.upVote - b.downVote)-(a.upVote - a.downVote)
+
+  const sortTop = (a, b) => b.star - a.star
 
   const addNewPost = () => {
     setPostList([
@@ -91,14 +97,11 @@ function App() {
 
   return (
     <div className="App">
-      <div className="navbar">
-        <TopNavbar />
-      </div>
-
+      <TopNavbar />
       <TrendingToday />
       <div className="mainFeedArea">
         <div className="currentFeedArea">
-          <PopularNavbar sortByNew={sortByNew} />
+          <PopularNavbar sortBy={sortBy} sortNew={sortNew} sortHot={sortHot} sortTop={sortTop} />
           <Feed posts={postList} />
         </div>
         <div className="sideFeedArea">
