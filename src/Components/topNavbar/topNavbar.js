@@ -1,6 +1,7 @@
 import "./TopNavbar.css";
 import logo from "./logo.png";
 import Actions from "./actions";
+import { IoMdArrowDropdown } from "react-icons/all";
 
 import SearchBar from "./searchBar";
 import Dropdown from "react-dropdown";
@@ -32,11 +33,11 @@ function TopNavbar() {
       <div className="user">
         <Actions />
         <div className="dropdown">
-          <Dropdown
-            options={options}
-            value={defaultOption}
-            placeholder="User Option"
-          />
+          <div class="dropdown">
+            <button onClick="myFunction()" className="dropbtn">
+              <IoMdArrowDropdown />
+            </button>
+          </div>
         </div>
       </div>
     </div>
