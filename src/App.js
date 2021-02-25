@@ -6,6 +6,7 @@ import PopularNavbar from "./Components/Popular-posts-navbar/Popular-posts-navba
 import TrendCommArea from './Components/TrendComm-Sidebar/TrendCommArea';
 import PopCommArea from "./Components/PopComm-sidebar/PopCommArea"
 import SidebarItems from "./Components/Community-sidebar/SidebarItems";
+import AdvertSidebar from "./Components/Advertisement-sidebar/AdvertSidebar";
 import PremiumSidebar from "./Components/Premium-sidebar/PremiumSidebar";
 import LinkSidebarItems from "./Components/Links-sidebar/LinkSidebarItems";
 import "./App.css";
@@ -29,6 +30,7 @@ function App() {
         </div>
         <div className="sideFeedArea">
           <SidebarItems />
+          <AdvertSidebar/>
           <PremiumSidebar/>
           <TrendCommArea />
           <PopCommArea/>
