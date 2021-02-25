@@ -36,6 +36,10 @@
     padding-bottom: 3px;
     margin-top: 11px;
 }
+.PremiumButton:hover{
+    background-color: orange;
+    color: orangered;
+}
 #PremiumContainer3:hover{
     color: lightgray;
 }
