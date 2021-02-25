@@ -4,7 +4,7 @@
   .feed-box{
     display: flex;
     background-color: rgb(255, 255, 255, 1);
-    width: 700px;
+    width: 40em;
     height: auto;
     border-radius: 5px;
     border: 1px solid lightgray;
@@ -91,4 +91,10 @@
 }
 .Awards-all{
     display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+    .feed-box{
+        width: auto;
+    }
 }
