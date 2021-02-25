@@ -67,7 +67,15 @@ function App() {
     },
   ]);
 
+  // let allTimes = [].concat(this.time)
+  //   .sort((a, b) => a - b);
+  //   console.log(allTimes);
+
   const sortByNew = () => {
+    setPostList(postList.sort((a, b) => a.time - b.time))
+  }
+  // postList.map(({ time }) => time)
+   
     console.log(postList.time);
   };
 
@@ -91,10 +99,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className="navbar">
-        <TopNavbar />
-      </div>
-
+      <TopNavbar />
       <TrendingToday />
       <div className="mainFeedArea">
         <div className="currentFeedArea">
