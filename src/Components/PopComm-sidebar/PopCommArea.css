@@ -1,0 +1,4 @@
+.PopAccordion {
+    display: flex;
+    flex-wrap: wrap;
+}
