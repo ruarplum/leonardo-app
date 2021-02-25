@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
+.AdvertSidebar{
+    background-color: white;
+    width: 19%;
+    height: 19%;
+    border:solid lightgray;
+    border-radius: 0.3em;
+    margin-left: 65%;
+}
+.advertTitle{
+    font-size: 10px;
+    color: black;
+    font-weight:500;
+    padding-left: 11px;
+    padding-top: 0.007px;
+}
+#advertlogo{
+    width:280px;
+    height: 240px;
+    padding-left: 3px;
+}
