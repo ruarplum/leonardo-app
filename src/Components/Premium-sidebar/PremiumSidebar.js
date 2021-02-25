@@ -6,12 +6,11 @@ const PremiumSidebar = () => {
     return (
         <div className="PremiumSidebar">
             <div className="PremiumContainer" id="PremiumContainer1">
-                <img src={redditPremiumLogo} alt="logo"></img>
+                <img className="PremiumLogo" src={redditPremiumLogo} alt="logo"></img>
             </div>
 
             <div className="PremiumContainer" id="PremiumContainer2">
-                <h2 className="PremiumTitle">Reddit Premium</h2>
-                <h3 className="PremiumDescription">The best Reddit experience, with monthly Coins</h3>
+                <p className="PremiumDescription"><p id="PremiumDescription">Reddit Premium</p>The best Reddit experience, with monthly Coins</p>
             </div>
 
             <div className="PremiumContainer" id="PremiumContainer3">
