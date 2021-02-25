@@ -11,7 +11,7 @@ import {
 const PopCommGen = (props) => {
     return(
         <div className="CommLinkArea popGenArea">
-       <AccordionItem>
+       <AccordionItem uuid={props.uuid}>
       <AccordionItemHeading>
         <AccordionItemButton>{props.commTitle}</AccordionItemButton>
           </AccordionItemHeading>

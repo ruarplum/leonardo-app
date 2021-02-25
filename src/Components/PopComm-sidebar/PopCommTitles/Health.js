@@ -11,7 +11,7 @@ import {
 const Health = (props) => {
   return (
     <div className="CommLinkArea healthArea">
-      <AccordionItem>
+      <AccordionItem uuid={props.uuid}>
       <AccordionItemHeading>
         <AccordionItemButton>{props.commTitle}</AccordionItemButton>
           </AccordionItemHeading>

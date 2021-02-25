@@ -10,7 +10,7 @@ import {
 const Gaming = (props) => {
     return(
       <div className="CommLinkArea gamingArea">
-      <AccordionItem>
+      <AccordionItem uuid={props.uuid}>
       <AccordionItemHeading>
         <AccordionItemButton>{props.commTitle}</AccordionItemButton>
       </AccordionItemHeading>

@@ -8,10 +8,16 @@ import {
 } from "react-accessible-accordion";
 
 const Travel = (props) => {
+
+  const onClickHandler = (e) => {
+    e.preventDefault();
+    console.log("hello")
+  }
+
     return(
         <div className="CommLinkArea travelArea">
         
-        <AccordionItem>
+        <AccordionItem uuid={props.uuid}>
       <AccordionItemHeading>
         <AccordionItemButton>{props.commTitle}</AccordionItemButton>
           </AccordionItemHeading>
@@ -32,51 +38,58 @@ const Travel = (props) => {
             <a href="">italy</a>{" "}
             <a href="">AskNYC</a>{" "}
             <a href="">europe</a>{" "}
-            <a href="">sydney</a>{" "}
-            <a href="">france</a>{" "}
-            <a href="">de</a>{" "}
-            <a href="">dubai</a>{" "}
-            <a href="">LearnJapanese</a>{" "}
-            <a href="">China</a>{" "}
-            <a href="">Edmonton</a>{" "}
-            <a href="">germany</a>{" "}
-            <a href="">houston</a>{" "}
-            <a href="">CasualUK</a>{" "}
-            <a href="">malaysia</a>{" "}
-            <a href="">askTO</a>{" "}
-            <a href="">JapanTravel</a>{" "}
-            <a href="">solotravel</a>{" "}
-            <a href="">newzealand</a>{" "}
-            <a href="">bayarea</a>{" "}
-            <a href="">Turkey</a>{" "}
-            <a href="">Portland</a>{" "}
-            <a href="">thenetherlands</a>{" "}
-            <a href="">Atlanta</a>{" "}
-            <a href="">brisbane</a>{" "}
-            <a href="">Seattle</a>{" "}
-            <a href="">halifax</a>{" "}
-            <a href="">chile</a>{" "}
-            <a href="">Winnipeg</a>{" "}
-            <a href="">japanlife</a>{" "}
-            <a href="">philadelphia</a>{" "}
-            <a href="">hungary</a>{" "}
-            <a href="">sandiego</a>{" "}
-            <a href="">Denver</a>{" "}
-            <a href="">Romania</a>{" "}
-            <a href="">flightsim</a>{" "}
-            <a href="">translator</a>{" "}
-            <a href="">Dallas</a>{" "}
-            <a href="">Columbus</a>{" "}
-            <a href="">pittsburgh</a>{" "}
-            <a href="">berkeley</a>{" "}
-            <a href="">nashville</a>{" "}
-            <a href="">phoenix</a>{" "}
-            <a href="">VictoriaBC</a>{" "}
-            <a href="">greece</a>{" "}
-            <a href="">WaltDisneyWorld</a>{" "}
+            
+            <AccordionItem>
+            <AccordionItemHeading>
+             <AccordionItemButton className="seeMoreBtn">See More</AccordionItemButton>
+             </AccordionItemHeading>
+            <AccordionItemPanel>
+              <a href="">sydney</a>{" "}
+              <a href="">france</a>{" "}
+              <a href="">de</a>{" "}
+              <a href="">dubai</a>{" "}
+              <a href="">LearnJapanese</a>{" "}
+              <a href="">China</a>{" "}
+              <a href="">Edmonton</a>{" "}
+              <a href="">germany</a>{" "}
+              <a href="">houston</a>{" "}
+              <a href="">CasualUK</a>{" "}
+              <a href="">malaysia</a>{" "}
+              <a href="">askTO</a>{" "}
+              <a href="">JapanTravel</a>{" "}
+              <a href="">solotravel</a>{" "}
+              <a href="">newzealand</a>{" "}
+              <a href="">bayarea</a>{" "}
+              <a href="">Turkey</a>{" "}
+              <a href="">Portland</a>{" "}
+              <a href="">thenetherlands</a>{" "}
+              <a href="">Atlanta</a>{" "}
+              <a href="">brisbane</a>{" "}
+              <a href="">Seattle</a>{" "}
+              <a href="">halifax</a>{" "}
+              <a href="">chile</a>{" "}
+              <a href="">Winnipeg</a>{" "}
+              <a href="">japanlife</a>{" "}
+              <a href="">philadelphia</a>{" "}
+              <a href="">hungary</a>{" "}
+              <a href="">sandiego</a>{" "}
+              <a href="">Denver</a>{" "}
+              <a href="">Romania</a>{" "}
+              <a href="">flightsim</a>{" "}
+              <a href="">translator</a>{" "}
+              <a href="">Dallas</a>{" "}
+              <a href="">Columbus</a>{" "}
+              <a href="">pittsburgh</a>{" "}
+              <a href="">berkeley</a>{" "}
+              <a href="">nashville</a>{" "}
+              <a href="">phoenix</a>{" "}
+              <a href="">VictoriaBC</a>{" "}
+              <a href="">greece</a>{" "}
+              <a href="">WaltDisneyWorld</a>{" "}
+            </AccordionItemPanel>
+            </AccordionItem>
           </AccordionItemPanel>
         </AccordionItem>
-
       </div>
     )
 }
