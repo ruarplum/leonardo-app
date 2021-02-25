@@ -28,11 +28,6 @@ const Post = (props) => {
             seal={props.seal} 
             spoon={props.spoon}
             hugz={props.hugz}/>
-            {/* <button>⭐ </button>
-            <p>🤝🏼 </p>
-            <p>🦭 </p>
-            <p>🥄 </p>
-            <p>🧸 </p> */}
           </div>
 
           <div className="feed-join">
@@ -40,7 +35,7 @@ const Post = (props) => {
           </div>
         </div>
         <div className="feed-main">
-          <p>This is test text</p>
+          <p>{props.text}</p>
         </div>
 
         <div className="feed-bottom-bar">

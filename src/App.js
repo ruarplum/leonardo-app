@@ -12,6 +12,7 @@ import LinkSidebarItems from "./Components/Links-sidebar/LinkSidebarItems";
 import "./App.css";
 
 function App() {
+
   const [postList, setPostList] = useState([
     {author: "u/Nick", catagory: "r/Reddit", upVote: 2, downVote: 6, star: 5, help: 2, seal: 17, spoon: 0, hugz: 12, time: 12 },
     {author: "u/Dan", catagory: "r/Pink", upVote: 12, downVote: 1, star: 6, help: 0, seal: 2, spoon: 6, hugz: 7, time: 6 },
@@ -26,8 +27,6 @@ function App() {
   const addNewPost = () => {
     setPostList([...postList, {author: "u/Dan", catagory: "r/Pink", upVote: 12, downVote: 1, star: 6, help: 0, seal: 2, spoon: 6, hugz: 7, time: 6 }] )
   }
-
-  
 
   return (
     <div className="App">

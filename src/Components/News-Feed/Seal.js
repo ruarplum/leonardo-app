@@ -6,7 +6,7 @@ const SealCounter = (props) => {
   return (
     <div>
       <button
-        className="feed-seal"
+        className="feed-award-button"
         onClick={() => setSealCount(sealCounter + 1)}
       >
         🐕‍🦺 {sealCounter}

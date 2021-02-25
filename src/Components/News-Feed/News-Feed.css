@@ -53,12 +53,12 @@
     display: flex;
     padding-bottom: 0;
 }
-.botButton{
+.botButton, .feed-award-button{
     height: 25px;
     background-color: transparent;
     border: none;
 }
-.botButton:hover, .upArrow:hover, .downArrow:hover{
+.botButton:hover, .upArrow:hover, .downArrow:hover, .feed-award-button:hover{
     background-color: lightgray;
     border-radius: 9999px;
 }
