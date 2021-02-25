@@ -2,6 +2,7 @@ import "./News-Feed.css";
 import Post from "./Post";
 
 const Feed = (props) => {
+  
   const posts = props.posts.map((post) => {
     return (
       <Post
