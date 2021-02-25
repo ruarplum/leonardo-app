@@ -46,3 +46,9 @@
 #PremiumDescription{
     font-weight: bolder;
 }
+
+@media (max-width: 680px) {
+    .PremiumSidebar{
+        display: none;
+    }
+}
