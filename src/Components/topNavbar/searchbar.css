@@ -1,0 +1,22 @@
+.searchbar input {
+  padding: 10px;
+  width: 500px;
+  padding-left: 40px;
+  border: 1px solid rgb(135, 206, 235);
+  background-color: rgb(218, 224, 230);
+  box-shadow: 3px 2px 3px rgb(135, 206, 235);
+  border-radius: 25px;
+}
+.searchbar {
+  position: relative;
+}
+.searchbar input:hover {
+  border-color: slategray;
+}
+.searchbar label {
+  position: absolute;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-left: 15px;
+}

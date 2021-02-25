@@ -11,6 +11,9 @@
     margin-top: 20px;
     margin-bottom: 20px;
 }
+.feed-box-wrapper{
+    flex-wrap: wrap;
+}
 /* right side wrapper */
 .feed-right-wrapper{
     display: flex;
@@ -55,7 +58,7 @@
     background-color: transparent;
     border: none;
 }
-.botButton:hover, .Arrow:hover{
+.botButton:hover, .upArrow:hover, .downArrow:hover{
     background-color: lightgray;
     border-radius: 9999px;
 }
@@ -64,7 +67,8 @@
     border: none;
     font-size: 1.8em;
 }
-.join, .botButton, .Arrow{
+
+.join, .botButton, .upArrow, .downArrow{
     outline: none;
     text-decoration: none;
 }
