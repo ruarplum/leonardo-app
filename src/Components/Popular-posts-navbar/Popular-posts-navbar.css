@@ -2,7 +2,8 @@
     background: #fdfbf7;
     border: 1px #bebcb8 solid;
     border-radius: 4px;
-    margin: 40px;
+    /* margin: 40px; */
+    margin-top: 1em;
     padding: 5px 10px;
 }
 

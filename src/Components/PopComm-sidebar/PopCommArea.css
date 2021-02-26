@@ -1,6 +1,7 @@
 .PopAccordion {
-  width: 316px;
   border: 1px solid red;
   box-sizing: content-box;
   height: fit-content;
+  margin-left: 4%;
+  width: 50%;
 }
