@@ -14,6 +14,7 @@ const AdvertSidebar = () => {
                 <h2 className="skyTitle">   Super reliable, Superfast Broadband</h2>
                 <img id="advertlogo" src={advertlogo} alt="advertlogo"></img>
                 <h1 className="skySubtitle">sky</h1>
+                <h3 className="clickforlegals">Click for legals</h3>
             </div>
             </div>
 
