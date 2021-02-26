@@ -15,16 +15,22 @@ import {
 } from "react-accessible-accordion";
 
 const PopComm = () => {
+
+  const onClickHandler = (setData, data, secondData) => {
+    setData([...data, transformItems(secondData)]);
+  }
+  const transformItems = (items) => items.map((item, index) => <span><a href="#" key={index} className="listItem">{item}</a> {" "}</span>)
+
   return (
     <div className="popCommAreas">
       <Accordion preExpanded={['a']}>
-        <PopCommGen commTitle="popcommGen" uuid="a" />
-        <Gaming commTitle="gaming" uuid="b"/>
-        <Sports commTitle="sports" uuid="c"/>
-        <Travel commTitle="travel" uuid="d"/>
-        <Tv commTitle="Tv" uuid="e"/>
-        <Health commTitle="Health" uuid="f"/>
-        <Fashion commTitle="fashion" uuid="g"/>
+        <PopCommGen commTitle="popular communities" uuid="a" onClickHandler={onClickHandler} transformItems={transformItems} />
+        <Gaming commTitle="gaming" uuid="b" onClickHandler={onClickHandler} transformItems={transformItems}/>
+        <Sports commTitle="sports" uuid="c" onClickHandler={onClickHandler} transformItems={transformItems}/>
+        <Travel commTitle="travel" uuid="d" onClickHandler={onClickHandler} transformItems={transformItems}/>
+        <Tv commTitle="Tv" uuid="e" onClickHandler={onClickHandler} transformItems={transformItems}/>
+        <Health commTitle="Health" uuid="f" onClickHandler={onClickHandler} transformItems={transformItems}/>
+        <Fashion commTitle="fashion" uuid="g" onClickHandler={onClickHandler} transformItems={transformItems}/>
       </Accordion>
     </div>
   );

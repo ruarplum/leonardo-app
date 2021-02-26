@@ -1,3 +1,4 @@
+import {useState} from 'react';
 import "./PopCommParts.css";
 import {
   Accordion,
@@ -8,11 +9,83 @@ import {
 } from "react-accessible-accordion";
 
 const Travel = (props) => {
+  const travelList = [
+    "vancouver",
+    "brasil",
+    "australia",
+    "mexico",
+    "argentina",]
 
-  const onClickHandler = (e) => {
-    e.preventDefault();
-    console.log("hello")
-  }
+    const extraTravelList =  [
+      "melbourne",
+      "ottawa",
+      "korea",
+      "ireland",
+      "travel",
+      "Calgary",
+      "portugal",
+      "india",
+      "sweden",
+      "italy",
+      "AskNYC",
+      "europe",
+      "sydney",
+      "france",
+      "de",
+      "dubai",
+      "LearnJapanese",
+      "China",
+      "Edmonton",
+      "germany",
+      "houston",
+      "CasualUK",
+      "malaysia",
+      "askTO",
+      "JapanTravel",
+      "solotravel",
+      "newzealand",
+      "bayarea",
+      "Turkey",
+      "Portland",
+      "thenetherlands",
+      "Atlanta",
+      "brisbane",
+      "Seattle",
+      "halifax",
+      "chile",
+      "Winnipeg",
+      "japanlife",
+      "philadelphia",
+      "hungary",
+      "sandiego",
+      "Denver",
+      "Romania",
+      "flightsim",
+      "translator",
+      "Dallas",
+      "Columbus",
+      "pittsburgh",
+      "berkeley",
+      "nashville",
+      "phoenix",
+      "VictoriaBC",
+      "greece",
+      "WaltDisneyWorld",
+      "Austria",
+      "norge",
+      "Sacramento",
+      "kansascity",
+      "croatia",
+      "sanfrancisco",
+      "vzla",
+      "Suomi",
+      "Denmark",
+      "orangecounty"
+    ]
+
+  const [travelItems, setTravelItems] = useState(travelList);
+  const[extraTravelItems, setExtraTravelItems] = useState(extraTravelList);
+  const [seeBtn, setBtn] = useState(true);
 
     return(
         <div className="CommLinkArea travelArea">
@@ -22,72 +95,19 @@ const Travel = (props) => {
         <AccordionItemButton>{props.commTitle}</AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
-            <a href="">brasil</a>{" "}
-            <a href="">australia</a>{" "}
-            <a href="">mexico</a>{" "}
-            <a href="">argentina</a>{" "}
-            <a href="">melbourne</a>{" "}
-            <a href="">ottawa</a>{" "}
-            <a href="">korea</a>{" "}
-            <a href="">ireland</a>{" "}
-            <a href="">travel</a>{" "}
-            <a href="">Calgary</a>{" "}
-            <a href="">portugal</a>{" "}
-            <a href="">india</a>{" "}
-            <a href="">sweden</a>{" "}
-            <a href="">italy</a>{" "}
-            <a href="">AskNYC</a>{" "}
-            <a href="">europe</a>{" "}
+           <div className="listArea"> {props.transformItems(travelItems)} </div>
+            {seeBtn ? 
+            <button className="seeMoreBtn" onClick={(e)=>{
+              props.onClickHandler(setTravelItems, travelItems, extraTravelItems);
+              setBtn(!seeBtn);
+            }}
+              >See More</button> 
+            : 
+            <button className="seeLessBtn" onClick={(e)=>{
+              props.onClickHandler(setTravelItems, [], travelItems);
+              setBtn(!seeBtn);
+              }}>Less</button>}
             
-            <AccordionItem>
-            <AccordionItemHeading>
-             <AccordionItemButton className="seeMoreBtn">See More</AccordionItemButton>
-             </AccordionItemHeading>
-            <AccordionItemPanel>
-              <a href="">sydney</a>{" "}
-              <a href="">france</a>{" "}
-              <a href="">de</a>{" "}
-              <a href="">dubai</a>{" "}
-              <a href="">LearnJapanese</a>{" "}
-              <a href="">China</a>{" "}
-              <a href="">Edmonton</a>{" "}
-              <a href="">germany</a>{" "}
-              <a href="">houston</a>{" "}
-              <a href="">CasualUK</a>{" "}
-              <a href="">malaysia</a>{" "}
-              <a href="">askTO</a>{" "}
-              <a href="">JapanTravel</a>{" "}
-              <a href="">solotravel</a>{" "}
-              <a href="">newzealand</a>{" "}
-              <a href="">bayarea</a>{" "}
-              <a href="">Turkey</a>{" "}
-              <a href="">Portland</a>{" "}
-              <a href="">thenetherlands</a>{" "}
-              <a href="">Atlanta</a>{" "}
-              <a href="">brisbane</a>{" "}
-              <a href="">Seattle</a>{" "}
-              <a href="">halifax</a>{" "}
-              <a href="">chile</a>{" "}
-              <a href="">Winnipeg</a>{" "}
-              <a href="">japanlife</a>{" "}
-              <a href="">philadelphia</a>{" "}
-              <a href="">hungary</a>{" "}
-              <a href="">sandiego</a>{" "}
-              <a href="">Denver</a>{" "}
-              <a href="">Romania</a>{" "}
-              <a href="">flightsim</a>{" "}
-              <a href="">translator</a>{" "}
-              <a href="">Dallas</a>{" "}
-              <a href="">Columbus</a>{" "}
-              <a href="">pittsburgh</a>{" "}
-              <a href="">berkeley</a>{" "}
-              <a href="">nashville</a>{" "}
-              <a href="">phoenix</a>{" "}
-              <a href="">VictoriaBC</a>{" "}
-              <a href="">greece</a>{" "}
-              <a href="">WaltDisneyWorld</a>{" "}
-            </AccordionItemPanel>
-            </AccordionItem>
           </AccordionItemPanel>
         </AccordionItem>
       </div>
@@ -95,3 +115,76 @@ const Travel = (props) => {
 }
 
 export default Travel;
+
+
+
+/* vancouver
+brasil
+australia
+mexico
+argentina
+melbourne
+ottawa
+korea
+ireland
+travel
+Calgary
+portugal
+india
+sweden
+italy
+AskNYC
+europe
+sydney
+france
+de
+dubai
+LearnJapanese
+China
+Edmonton
+germany
+houston
+CasualUK
+malaysia
+askTO
+JapanTravel
+solotravel
+newzealand
+bayarea
+Turkey
+Portland
+thenetherlands
+Atlanta
+brisbane
+Seattle
+halifax
+chile
+Winnipeg
+japanlife
+philadelphia
+hungary
+sandiego
+Denver
+Romania
+flightsim
+translator
+Dallas
+Columbus
+pittsburgh
+berkeley
+nashville
+phoenix
+VictoriaBC
+greece
+WaltDisneyWorld
+Austria
+norge
+Sacramento
+kansascity
+croatia
+sanfrancisco
+vzla
+Suomi
+Denmark
+orangecounty
+ */
