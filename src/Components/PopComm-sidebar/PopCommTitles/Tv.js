@@ -1,3 +1,4 @@
+import {useState} from 'react';
 import "./PopCommParts.css"
 import {
   Accordion,
@@ -9,6 +10,56 @@ import {
 
 
 const Tv = (props) => {
+
+  const mainTvList =["Naruto",
+  "BokuNoHeroAcademia",
+  "marvelstudios",
+  "rupaulsdragrace",
+  "90DayFiance",
+  "dbz",
+  "Boruto",
+  "rickandmorty",
+  "howardstern",
+  "cordcutters"]
+
+  const extraTvList = [
+    "TheLastAirbender",
+    "IASIP",
+    "Animesuggest",
+    "stevenuniverse",
+    "brooklynninenine",
+    "thebachelor",
+    "TheSimpsons",
+    "ShingekiNoKyojin",
+    "thewalkingdead",
+    "MtvChallenge",
+    "asoiaf",
+    "StrangerThings",
+    "survivor",
+    "thesopranos",
+    "batman",
+    "BravoRealHousewives",
+    "blackmirror",
+    "NetflixBestOf",
+    "Berserk",
+    "BlackClover",
+    "freefolk",
+    "gameofthrones",
+    "riverdale",
+    "RWBY",
+    "BoJackHorseman",
+    "lucifer",
+    "TheBlackList",
+    "TeenMomOGandTeenMom2",
+    "startrek",
+    "Glitch_in_the_Matrix",
+    "overlord"
+  ]
+
+  const [tvItems, setTvItems] = useState(mainTvList);
+  const [extraTvItems, setExtraTvItems] = useState(extraTvList);
+  const [seeBtn, setBtn] = useState(true);
+
     return(
         <div className="CommLinkArea tvArea">
         
@@ -17,47 +68,34 @@ const Tv = (props) => {
         <AccordionItemButton>{props.commTitle}</AccordionItemButton>
           </AccordionItemHeading>
           <AccordionItemPanel>
-            <a href="">Naruto</a>{" "}
-            <a href="">BokuNoHeroAcademia</a>{" "}
-            <a href="">marvelstudios</a>{" "}
-            <a href="">rupaulsdragrace</a>{" "}
-            <a href="">90DayFiance</a>{" "}
-            <a href="">dbz</a>{" "}
-            <a href="">Boruto</a>{" "}
-            <a href="">rickandmorty</a>{" "}
-            <a href="">howardstern</a>{" "}
-            <a href="">cordcutters</a>{" "}
-            <a href="">TheLastAirbender</a>{" "}
-            <a href="">IASIP</a>{" "}
-            <a href="">Animesuggest</a>{" "}
-            <a href="">stevenuniverse</a>{" "}
-            <a href="">brooklynninenine</a>{" "}
-            <a href="">thebachelor</a>{" "}
-            <a href="">TheSimpsons</a>{" "}
-            <a href="">ShingekiNoKyojin</a>{" "}
-            <a href="">thewalkingdead</a>{" "}
-            <a href="">MtvChallenge</a>{" "}
-            <a href="">asoiaf</a>{" "}
-            <a href="">StrangerThings</a>{" "}
-            <a href="">survivor</a>{" "}
-            <a href="">thesopranos</a>{" "}
-            <a href="">batman</a>{" "}
-            <a href="">BravoRealHousewives</a>{" "}
-            <a href="">blackmirror</a>{" "}
-            <a href="">NetflixBestOf</a>{" "}
-            <a href="">Berserk</a>{" "}
-            <a href="">BlackClover</a>{" "}
-            <a href="">freefolk</a>{" "}
-            <a href="">gameofthrones</a>{" "}
-            <a href="">riverdale</a>{" "}
-            <a href="">RWBY</a>{" "}
-            <a href="">BoJackHorseman</a>{" "}
-            <a href="">lucifer</a>{" "}
-            <a href="">TheBlackList</a>{" "}
-            <a href="">TeenMomOGandTeenMom2</a>{" "}
-            <a href="">startrek</a>{" "}
-            <a href="">Glitch_in_the_Matrix</a>{" "}
-            <a href="">overlord</a>{" "}
+            
+          <div className="listArea"> {props.transformItems(tvItems)} </div>
+          {seeBtn ? (
+            <button
+              className="seeMoreBtn"
+              onClick={(e) => {
+                props.onClickHandler(
+                  setTvItems,
+                  tvItems,
+                  extraTvItems
+                );
+                setBtn(!seeBtn);
+              }}
+            >
+              See More
+            </button>
+          ) : (
+            <button
+              className="seeLessBtn"
+              onClick={(e) => {
+                props.onClickHandler(setTvItems, [...tvItems], []);
+                setBtn(!seeBtn);
+              }}
+            >
+              Less
+            </button>
+          )}
+            
           </AccordionItemPanel>
         </AccordionItem>
 

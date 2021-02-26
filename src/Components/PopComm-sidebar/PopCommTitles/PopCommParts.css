@@ -16,13 +16,17 @@
 
 .accordion__button {
     background-color: #f4f4f4;
-    color: rgb(130, 131, 132);
+    color: rgb(8, 8, 8);
     cursor: pointer;
     padding: 18px;
     text-align: left;
     border: none;
     text-transform: uppercase;
     font-family: "IBM Plex Sans", Arial, sans-serif;
+    font-weight: 500;
+    font-size: 12px;
+    display:flex;
+    justify-content: space-between;
 }
 
 .accordion__button:hover {
@@ -34,10 +38,10 @@
     content: '';
     height: 10px;
     width: 10px;
-    margin-right: 12px;
     border-bottom: 2px solid currentColor;
     border-right: 2px solid currentColor;
     transform: rotate(45deg);
+    color: gray;
 }
 
 .accordion__button[aria-expanded='true']::after,
@@ -54,10 +58,41 @@
     animation: fadein 0.35s ease-in;
 }
 
-.seeMoreBtn {
+.seeMoreBtn, .seeLessBtn{
     font-family: "Noto Sans", sans-serif;
     color:rgb(0, 121, 211);
+    font-weight: bold;
+    background-color: transparent;
+    border: none;
+    font-size: 18px;
+    margin: 10px 0;
+    
 }
+
+.seeMoreBtn:hover {
+    background-color: rgba(128, 128, 128, 0.377);
+    border-radius: 15px;
+}
+
+.seeLessBtn:hover {
+    background-color: rgba(128, 128, 128, 0.377);
+    border-radius: 15px;
+}
+
+.listArea {
+    list-style: none;
+    display:inline-block;
+}
+
+.listItem {
+    display:inline-block;
+    text-decoration: none;
+    margin-right: 10px;
+    color: black;
+    font-family: "Noto Sans", sans-serif;
+    font-size: 13px;
+}
+
 
 /* -------------------------------------------------- */
 /* ---------------- Animation part ------------------ */
