@@ -1,16 +1,16 @@
 //? Importing Icon images for the Popular posts navbar from REACT ICONS
 
-// import { IoRocketSharp } from 'react-icons/all';
 import { IoFlameSharp } from 'react-icons/all';
 import { TiStarburst } from 'react-icons/all';
 import { FaSortAmountUpAlt } from 'react-icons/fa';
 import { BsThreeDots } from 'react-icons/bs';
-import { BsViewStacked } from 'react-icons/bs';
+import { MdViewAgenda } from 'react-icons/all';
 import { IoMdArrowDropdown } from 'react-icons/all';
 
 import './Popular-posts-navbar.css'
 import ButtonOne from './Button'
 import ButtonTwo from './ButtonTwo'
+import DropdownLocation from './DropdownLocation'
 
 const PopularNavbar = (props) => {
 
@@ -19,7 +19,6 @@ const PopularNavbar = (props) => {
             Popular Posts
             <nav className='PopNavbar'>
 
-            {/* //? Split the 6 Items up into Left and Right - 5 left/ 1 right to help split in CSS */}
                 <div className='PopNavButtons'>
                     <div className='FilterButtons'>
                         <ButtonOne
@@ -28,14 +27,29 @@ const PopularNavbar = (props) => {
                             img={<IoFlameSharp />}
                         />
 
-                        <ButtonTwo
+                        <select>
+                            <option>United Kingdom</option>
+                            <option>Neils Lisp YouTube Channel</option>
+                            <option>Codenation Canteen</option>
+                            <option>Tam's Quizzical</option>
+                        </select>
+
+                        {/* <DropdownLocation /> */}
+                        {/* <Dropdown>
+                            <Dropdown.Toggle vaient='seccess' id='dropdownLocation'>
+                                United Kingdom
+                            </Dropdown.Toggle>
+                            <Dropdown.Menu>
+                                <Dropdown.Item href="https://wearecodenation.com/event/master-coding/">Codenation</Dropdown.Item>
+                                <Dropdown.Item href="https://youtu.be/3GEAINRCbJ4/">Neils YouTube</Dropdown.Item>
+                                <Dropdown.Item href="https://letsget-quizzical.herokuapp.com/about">Let's Get Quizzicle</Dropdown.Item>
+                            </Dropdown.Menu> */}
+                        {/* </Dropdown> */}
+                        {/* <ButtonTwo
                             className='Button Location'
                             text='United Kingdom'
                             img={<IoMdArrowDropdown />}>
-                            <option>United Kingdom</option>
-                            <option>South with the Faries</option>
-                            <option>Tup North</option>/
-                        </ButtonTwo>
+                        </ButtonTwo> */}
 
                         <ButtonOne
                             className='Button NewBtn'
@@ -64,7 +78,7 @@ const PopularNavbar = (props) => {
                         className='Button ViewBtn'
                         text=''
                         onClick={() => console.log('View options')}
-                        img={<BsViewStacked />}
+                        img={<MdViewAgenda />}
                         img2={<IoMdArrowDropdown />}
                     />
                 </div>

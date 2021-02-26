@@ -3,7 +3,7 @@ const ButtonOne = (props) => {
         <div className={props.className}>
 
             <button
-                className="button"
+                className="buttonOne"
                 onClick={props.onClick}
             >
                 {props.img}
