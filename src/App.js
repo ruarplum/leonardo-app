@@ -55,7 +55,7 @@ function App() {
       spoon: 19,
       hugz: 0,
       time: 8,
-      titleText: "Wanted for Crimes against CSS",
+      textTitle: "Wanted for Crimes against CSS",
       textBody: "This individual is wanted for questioning over his true feelings about CSS and what his motives may be!",
       img:<img id='newImage' src={NMunro}/>,
     },
