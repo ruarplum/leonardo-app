@@ -4,7 +4,7 @@
     height: 70%;
     width: 80%;
     margin-left: 40px;
-    border: 1px solid black;
+    border: 1px solid grey;
     border-radius: 30px;
     display: flex; 
 }
@@ -24,6 +24,10 @@
     padding-bottom: 2%;
     border-radius: 0.3em; 
     border: solid lightgray;
+}
+#listcontcom{
+    margin-top: 9px;
+    margin-bottom:11px;
 }
 .listcontcom{
     width: 21%;

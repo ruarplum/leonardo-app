@@ -18,7 +18,7 @@ const SidebarItems = () => {
                 <div className="communityListcont">
 
                     <div className="listcontcom" id="listcontcom">
-                        <div id="comlistno">1</div>
+                        <div id="comlistno" id="listcontcom">1</div>
                         <Sidebar text="r/UpliftingNews" image={logoreddit} />
                     </div>
                     <div className="listcontcom" id="listcontcom">
