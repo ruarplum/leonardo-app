@@ -1,6 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap");
 
-/*  */
 .container1 {
   background-color: white;
   align-content: center;
@@ -8,7 +7,6 @@
   flex-direction: row;
   align-content: flex-end;
   justify-content: space-between;
-  height: 68px;
 }
 .user {
   padding-top: 30px;
@@ -25,7 +23,7 @@ input {
   width: 70vh;
 }
 [alt="reddit"] {
-  padding-top: 3vh;
+  padding-top: 2vh;
   padding-left: 4vh;
   height: 4vh;
 }
@@ -34,28 +32,18 @@ input {
   border-radius: 25px;
 }
 .buttons {
-  padding-top: 3vh;
-  max-height: 5vh;
+  padding-top: 2vh;
+  max-height: 4vh;
   display: flex;
   align-content: flex-end;
   padding-bottom: 1vh;
 }
-.dropdown svg:first-child {
-  height: 3vh;
-  background-color: rgb(218, 224, 230);
-  color: rgb(135, 206, 235);
-  border-radius: 50px;
-  width: 3vh;
-}
-.dropdown svg:first-child:hover {
-  background-color: white;
-  color: rgb(135, 206, 235);
-}
+
 .searchBar {
   font-family: "Source Sans Pro", sans-serif;
   position: relative;
 
-  padding: 3vh;
+  padding: 2vh;
 }
 .search {
   height: 1vh;
