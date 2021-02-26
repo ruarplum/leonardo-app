@@ -1,4 +1,5 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap");
 
 .container1 {
   background-color: white;
@@ -53,7 +54,7 @@ input {
 .btn1 {
   color: rgb(0, 121, 211);
   box-shadow: inset 0 0 0 0;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: “IBM Plex Sans”, Arial, sans-serif;
   background-color: white;
   border: rgb(0, 121, 211) solid 1px;
   width: 120px;
@@ -69,7 +70,7 @@ input {
 .btn2 {
   color: white;
   box-shadow: inset 0 0 0 0;
-  font-family: "Source Sans Pro", sans-serif;
+  font-family: “IBM Plex Sans”, Arial, sans-serif;
   background-color: rgb(0, 121, 211);
   border: white solid 1px;
   width: 120px;
