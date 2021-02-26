@@ -8,7 +8,7 @@ export default function searchBar() {
       <label htmlFor="searchbar">
         <BiSearch />
       </label>
-      <input id="searchbar" placeholder="search" />
+      <input id="searchbar" placeholder="Search" />
     </div>
   );
 }

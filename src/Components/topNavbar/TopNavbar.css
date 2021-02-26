@@ -18,7 +18,8 @@
 
 .searchBar,
 input {
-  border-radius: 5px;
+  border: 1px #fdfbf7;
+  border-radius: 4px;
   padding-top: 10px;
   width: 70vh;
 }
@@ -37,6 +38,7 @@ input {
   display: flex;
   align-content: flex-end;
   padding-bottom: 1vh;
+
 }
 
 .searchBar {
