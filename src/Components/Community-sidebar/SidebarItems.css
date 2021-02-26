@@ -10,8 +10,9 @@
 }
 .sidebarcommunity{
     background-color: white;
-    width:19%; 
-    margin-left: 65%;
+    width:50%;
+    margin-left: 4%; 
+    margin-top: 2.3em;
 }
 .communitytitle{
     text-align: left;
