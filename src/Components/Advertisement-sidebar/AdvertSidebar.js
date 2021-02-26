@@ -6,15 +6,6 @@ import "./AdvertSidebar.css";
 const AdvertSidebar = () => {
     return (
         <div>
-            <div className="Codenationadvert">
-                <div className="advertTitle">
-                    <p>ADVERTISEMENT</p>
-                </div>
-                <div className="advertcontainer1">
-                    <img id="codenationLogo" src={codenationLogo} alt="codenationLogo"></img>
-                <div className="CodenationLink"><a href="https://wearecodenation.com/" id="CodenationLink">Click to see more about CODENATION</a></div>
-                </div>
-            </div>
 
             <div className="AdvertSidebar">
 
@@ -31,6 +22,17 @@ const AdvertSidebar = () => {
                 </div>
 
             </div>
+
+            <div className="Codenationadvert">
+                <div className="advertTitle">
+                    <p>ADVERTISEMENT</p>
+                </div>
+                <div className="advertcontainer1">
+                    <img id="codenationLogo" src={codenationLogo} alt="codenationLogo"></img>
+                <div className="CodenationLink"><a href="https://wearecodenation.com/" id="CodenationLink">Click to see more about CODENATION</a></div>
+                </div>
+            </div>
+
         </div>
     )
 }
