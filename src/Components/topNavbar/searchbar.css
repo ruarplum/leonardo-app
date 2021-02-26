@@ -12,6 +12,7 @@
   position: relative;
 }
 .searchbar input:hover {
+  size: 2vh;
   border-color: rgb(246, 247, 248);
 }
 .searchbar label {
