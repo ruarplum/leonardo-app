@@ -16,7 +16,8 @@ const Feed = (props) => {
         spoon={post.spoon}
         hugz={post.hugz}
         time={post.time}
-        text={post.text}
+        textTitle={post.textTitle}
+        textBody={post.textBody}
         img={post.img}
       />
     );

@@ -11,12 +11,13 @@ import PremiumSidebar from "./Components/Premium-sidebar/PremiumSidebar";
 import LinkSidebarItems from "./Components/Links-sidebar/LinkSidebarItems";
 import "./App.css";
 import whaleImg from "./Components/News-Feed/whale.jpg"
-
+import Sun from "./Components/News-Feed/sun-explode.jpg"
 function App() {
+  // add new posts here
   const [postList, setPostList] = useState([
     {
-      author: "u/Nick",
-      catagory: "r/Reddit",
+      author: "RedditUser21",
+      catagory: "veryInteresting",
       upVote: 2,
       downVote: 6,
       star: 5,
@@ -25,11 +26,12 @@ function App() {
       spoon: 0,
       hugz: 12,
       time: 12,
-      text: "This is text for the first post",
+      textTitle: "The most interesting story",
+      textBody:"This is a really and I mean really interesting story"
     },
     {
-      author: "u/Dan",
-      catagory: "r/Pink",
+      author: "Leonardo",
+      catagory: "Art",
       upVote: 12,
       downVote: 1,
       star: 6,
@@ -38,11 +40,12 @@ function App() {
       spoon: 6,
       hugz: 7,
       time: 6,
-      text: "Second post text",
+      textTitle: "The Artist",
+      textBody: "Leonardo da Vinci's total output in painting is really rather small; there are less than 20 surviving paintings that can be definitely attributed to him, and several of them are unfinished. Two of his most important works—the Battle of Anghiari and the Leda, neither of them completed—have survived only in copies."
     },
     {
-      author: "u/Tom",
-      catagory: "r/Blue",
+      author: "Neil",
+      catagory: "RandomText",
       upVote: 22,
       downVote: 5,
       star: 12,
@@ -51,21 +54,76 @@ function App() {
       spoon: 19,
       hugz: 0,
       time: 8,
-      text: "The third text section",
+      textBody: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ... Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
     },
     {
-      author: "u/Tim",
-      catagory: "r/Red",
+      author: "whaleWatcher",
+      catagory: "SeaLife",
       upVote: 20,
-      downVote: 4,
+      downVote: 0,
       star: 1,
       help: 3,
       seal: 1,
       spoon: 0,
       hugz: 0,
       time: 1,
-      text: "This is image of whale",
+      textTitle: "This is image of whale",
       img:<img id="newImage"src={whaleImg} alt="image of whale" />
+    },
+    {
+      author: "Dora",
+      catagory: "DoraTheExplorer",
+      upVote: 0,
+      downVote: 3,
+      star: 1,
+      help: 3,
+      seal: 8,
+      spoon: 1,
+      hugz: 6,
+      time: 0.5,
+      textTitle:"Trump KILLS Dora",
+      textBody:"Trump really has killed Dora The Explorer "
+    },
+    {
+      author: "ManU1Fan",
+      catagory: "FootballFocus",
+      upVote: 20,
+      downVote: 4,
+      star: 7,
+      help: 3,
+      seal: 8,
+      spoon: 0,
+      hugz: 0,
+      time: 16,
+      textTitle:"Today's Football News",
+      textBody:"Atletico Madrid vs Chelsea: Chelsea took a first leg advantage in the Champions League round of 16 with a 1-0 win at the Wanda Metropolitano. ISL: NorthEast United FC held their nerve and defended resolutely to secure the three points and stay on track for a top-four finish."
+    },
+    {
+      author: "FlatEarther",
+      catagory: "WorldReality",
+      upVote: 20,
+      downVote: 4,
+      star: 1,
+      help: 3,
+      seal: 1,
+      spoon: 6,
+      hugz: 0,
+      time: 3,
+      textTitle:"Sun set to explode!",
+      img:<img id="newImage" src={Sun} alt="Picture of sun exploding" />
+    },
+    {
+      author: "Dog1",
+      catagory: "Dogs",
+      upVote: 24,
+      downVote: 0,
+      star: 20,
+      help: 3,
+      seal: 1,
+      spoon: 0,
+      hugz: 20,
+      time: 1,
+      textBody:"DOGs take over world"
     },
   ]);
 //*---------- Button functions on popNavbar-------
