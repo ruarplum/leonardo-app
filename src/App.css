@@ -1,9 +1,14 @@
-.App{
-    background-color: #dae0e6;
+.App {
+  background-color: #dae0e6;
 }
-.mainFeedArea{
-    display: flex;
-    justify-content: center;
-    margin-left: 14em;
-    margin-top: 2em;
+.mainFeedArea {
+  display: flex;
+  justify-content: center;
+  margin-left: 14em;
+  margin-top: 2em;
+  padding-left: 7vh;
+}
+
+.App {
+  background-color: #dae0e6;
 }
