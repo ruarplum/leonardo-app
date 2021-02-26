@@ -4,7 +4,7 @@ import Actions from "./actions";
 import { IoMdArrowDropdown } from "react-icons/all";
 
 import SearchBar from "./searchBar";
-import Dropdown from "react-dropdown";
+
 import "react-dropdown/style.css";
 
 function TopNavbar() {

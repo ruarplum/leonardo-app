@@ -8,10 +8,7 @@ export default function Actions() {
   return (
     <div className="actions">
       <div className="profile">
-        <button className="userbtn" onclick="myFunction()">
-          <div className="dropdownopt">
-            <a></a>
-          </div>
+        <button className="userbtn">
           <AiOutlineUser />
           <IoMdArrowDropdown />
         </button>
