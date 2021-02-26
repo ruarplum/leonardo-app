@@ -16,23 +16,27 @@ const SidebarItems = () => {
             <div className="communitycont">
 
                 <div className="communityListcont">
-
+                     
                     <div className="listcontcom" id="listcontcom">
                         <div id="comlistno" id="listcontcom">1</div>
                         <Sidebar text="r/UpliftingNews" image={logoreddit} />
                     </div>
+                    <hr/>
                     <div className="listcontcom" id="listcontcom">
                         <div id="comlistno">2</div>
                         <Sidebar text="r/technews" image={technologyLogo} />
                     </div>
+                    <hr/>
                     <div className="listcontcom" id="listcontcom">
                         <div id="comlistno">3</div>
                         <Sidebar text="r/worldnews" image={globelogo} />
                     </div>
+                    <hr/>
                     <div className="listcontcom" id="listcontcom">
                         <div id="comlistno">4</div>
                         <Sidebar text="r/gamernews" image={gamerlogo} />
                     </div>
+                    <hr/>
                     <div className="listcontcom" id="listcontcom">
                         <div id="comlistno">5</div>
                         <Sidebar text="r/olympics" image={olympicslogo} />
