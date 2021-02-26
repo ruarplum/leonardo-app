@@ -15,8 +15,8 @@ const Post = (props) => {
         <div className="feed-right-top">
           <div className="feed-com-post">
             <Who
-              text={props.catagory}
-              textWho={`Posted by ${props.author} ${props.time} hours ago`}
+              text={`r/${props.catagory}`}
+              textWho={`Posted by u/${props.author} ${props.time} hours ago`}
                img={Icon}
             />
           </div>
@@ -35,7 +35,8 @@ const Post = (props) => {
           </div>
         </div>
         <div className="feed-main">
-          <p>{props.text}</p>
+          <h3>{props.textTitle}</h3>
+          {props.img}{props.textBody}
         </div>
 
         <div className="feed-bottom-bar">
