@@ -10,7 +10,8 @@ const PremiumSidebar = () => {
             </div>
 
             <div className="PremiumContainer" id="PremiumContainer2">
-                <p className="PremiumDescription"><p id="PremiumDescription">Reddit Premium</p>The best Reddit experience, with monthly Coins</p>
+                <h3 id="PremiumDescription">Reddit Premium</h3>
+                <p className="PremiumDescription">The best Reddit experience, with monthly Coins</p>
             </div>
 
             <div className="PremiumContainer" id="PremiumContainer3">
