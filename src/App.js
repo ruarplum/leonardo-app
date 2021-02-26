@@ -10,6 +10,7 @@ import AdvertSidebar from "./Components/Advertisement-sidebar/AdvertSidebar";
 import PremiumSidebar from "./Components/Premium-sidebar/PremiumSidebar";
 import LinkSidebarItems from "./Components/Links-sidebar/LinkSidebarItems";
 import "./App.css";
+import whaleImg from "./Components/News-Feed/whale.jpg"
 
 function App() {
   const [postList, setPostList] = useState([
@@ -64,6 +65,7 @@ function App() {
       hugz: 0,
       time: 1,
       text: "This is image of whale",
+      img:<img id="newImage"src={whaleImg} alt="image of whale" />
     },
   ]);
 //*---------- Button functions on popNavbar-------

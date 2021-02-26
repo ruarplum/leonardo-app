@@ -36,6 +36,7 @@ const Post = (props) => {
         </div>
         <div className="feed-main">
           <p>{props.text}</p>
+          {props.img}
         </div>
 
         <div className="feed-bottom-bar">

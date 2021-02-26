@@ -17,6 +17,7 @@ const Feed = (props) => {
         hugz={post.hugz}
         time={post.time}
         text={post.text}
+        img={post.img}
       />
     );
   });

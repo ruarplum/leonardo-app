@@ -92,6 +92,14 @@
 .Awards-all{
     display: flex;
 }
+.feed-main{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+#newImage{
+    width: 70%;
+}
 
 @media only screen and (max-width: 600px) {
     .feed-box{
