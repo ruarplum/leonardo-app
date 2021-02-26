@@ -11,6 +11,7 @@ import PremiumSidebar from "./Components/Premium-sidebar/PremiumSidebar";
 import LinkSidebarItems from "./Components/Links-sidebar/LinkSidebarItems";
 import "./App.css";
 import whaleImg from "./Components/News-Feed/whale.jpg"
+import NMunro from './Components/News-Feed/nmunro.jpeg';
 import Sun from "./Components/News-Feed/sun-explode.jpg"
 function App() {
   // add new posts here
@@ -44,17 +45,19 @@ function App() {
       textBody: "Leonardo da Vinci's total output in painting is really rather small; there are less than 20 surviving paintings that can be definitely attributed to him, and several of them are unfinished. Two of his most important works—the Battle of Anghiari and the Leda, neither of them completed—have survived only in copies."
     },
     {
-      author: "Neil",
+      author: "Neil M",
       catagory: "RandomText",
-      upVote: 22,
-      downVote: 5,
+      upVote: 225,
+      downVote: 25,
       star: 12,
       help: 3,
       seal: 2,
       spoon: 19,
       hugz: 0,
       time: 8,
-      textBody: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. ... Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book."
+      titleText: "Wanted for Crimes against CSS",
+      textBody: "This individual is wanted for questioning over his true feelings about CSS and what his motives may be!",
+      img:<img id='newImage' src={NMunro}/>,
     },
     {
       author: "whaleWatcher",
