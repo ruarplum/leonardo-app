@@ -19,52 +19,90 @@
     display: flex;
 }
 
-.Button {
+/* .Button {
     display: flex;
-    flex-direction: column;
+    /* flex-direction: column;
+    align-items: center;
+} */
+
+.buttonOne {
+    border: none;
+    color: #999285;
+    background: transparent;
+    padding: 10px 20px;
+    border-radius: 15px;
+    font-weight: 700;
+    display: flex;
     align-items: center;
 }
+
+.buttonTwo {
+    border: none;
+    padding: 8px 18px;
+    /* display: flex; */
+    /* align-items: center; */
+    color: #026bb6;
+    font-weight: 700;
+    border-radius: 15px;
+    background-color:#e2e2e2;
+    display: flex;
+    align-items: center;
+}
+
+.PopNavbar button:active {
+    /* fill: #026bb6; */
+    color: #026bb6;
+    background: #8f8b8b;
+    border: none;
+}
+
 .Location svg {
     color: #026bb6;
 }
 .Location text {
     color: #026bb6;
+    
 }
 
 .PopNavbar svg {
     width: 1.5em;
     height: 1.5em;
 }
-.PopNavButtons text {
-    : red;
+.PopNavbar text {
+    color: red;
 }
 
 .ViewBtn svg{
     color: #026bb6;    
 }
 
-.PopNavbar Button {
-    border: none;
-    color: #999285;
-    background: transparent;
-    padding: 10px 20px;
-    /* border-radius: 15px; */
-    font-weight: 700;
-}
-
-.PopNavbar button:active {
-    color: #026bb6;
-    background: #b4adad;
-    border: none;
-}
-
 .PopNavbar Button:hover {
-    background: #eceae8;
+    background: #DAE0E6;
     cursor: pointer;
     border-radius: 22px;
 }
 
-
+/* .PopNavbar select {
+    border: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+    font-weight: 700;
+    color: #026bb6;
+    fill: #026bb6;
+    background: #8f8b8b; */
+/* } */
+.PopNavbar select {
+    border: none;
+    width: 12em;
+    padding: 8px 18px;
+    color: #026bb6;
+    font-weight: 700;
+    border-radius: 15px;
+    background-color:#e2e2e2;
+    display: flex;
+    align-items: center;
+}
 /* .PopNavbar Button img {
     background: #026bb6;
 } */
