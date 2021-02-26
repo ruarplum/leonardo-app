@@ -1,9 +1,18 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
-.AdvertSidebar{
+.AdvertSidebar,.Codenationadvert{
     background-color: white;
     width: 19%;
     height: 19%;
+    border:solid lightgray;
+    border-radius: 0.3em;
+    margin-left: 65%;
+    padding-bottom: 10px;
+}
+.Codenationadvert{
+    background-color: white;
+    width: 19%;
+    height: 24%;
     border:solid lightgray;
     border-radius: 0.3em;
     margin-left: 65%;
@@ -22,6 +31,22 @@
     padding-left: 19px;
     margin-left: -19px;
 }
+#codenationLogo{
+    width:260px;
+    height: 50px;
+    padding-left: 23px;
+    margin-left: -19px;
+    margin-top: 8px;
+    margin-bottom: 25px;
+}
+.CodenationLink{
+    margin-left: 10px;
+    margin-bottom: 10px;
+    font-size: 12px;
+}
+#CodenationLink{
+    color: gray;
+}
 .skyTitle{
     margin-left: 12px;
     font-weight: 900;
@@ -36,7 +61,19 @@
     font-size: 40px;
     font-weight: 900;
 }
-.advertcontainer{
+.advertcontainer2{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: solid black;
+    flex-basis: content;
+    padding-top: 2px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-bottom: -30px;
+}
+.advertcontainer1{
     display: flex;
     flex-direction: column;
     align-items: flex-start;
@@ -55,6 +92,7 @@
     margin-top: -35px;
     color: grey;
 }
+
 
 @media (max-width: 680px) {
     .AdvertSidebar{
