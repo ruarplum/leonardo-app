@@ -1,5 +1,4 @@
 import "./PopComm.css";
-import 'react-accessible-accordion/dist/fancy-example.css';
 import Health from "./PopCommTitles/Health";
 import Tv from "./PopCommTitles/Tv";
 import Travel from "./PopCommTitles/Travel";

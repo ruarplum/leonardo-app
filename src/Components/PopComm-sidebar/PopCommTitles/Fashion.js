@@ -10,7 +10,7 @@ import {
 const Fashion = (props) => {
   return (
     <div className="CommLinkArea fashionArea">
-        <AccordionItem>
+        <AccordionItem uuid={props.uuid}>
           <AccordionItemHeading>
             <AccordionItemButton>{props.commTitle}</AccordionItemButton>
           </AccordionItemHeading>
