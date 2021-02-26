@@ -1,9 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
 
 .PremiumSidebar{
-    width: 19%;
+    width: 50%;
     background-color: white;
-    margin-left: 65%;
+    margin-left: 4%;
     border-radius: 0.3em;
     border:solid lightgray;
     font-family: "Roboto";
