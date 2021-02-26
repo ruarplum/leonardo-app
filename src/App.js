@@ -169,10 +169,15 @@ function App() {
         </div>
         <div className="sideFeedArea">
           <SidebarItems />
+          <br/>
           <AdvertSidebar />
+          <br/>
           <PremiumSidebar />
+          <br/>
           <TrendCommArea />
+          <br/>
           <PopCommArea />
+          <br/>
           <LinkSidebarItems />
         </div>
       </div>
