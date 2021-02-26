@@ -7,6 +7,7 @@
     border:solid lightgray;
     border-radius: 0.3em;
     margin-left: 65%;
+    margin-bottom: -20px;
 }
 .advertTitle{
     font-size: 10px;
@@ -16,9 +17,36 @@
     padding-top: 0.007px;
 }
 #advertlogo{
-    width:280px;
-    height: 240px;
-    padding-left: 3px;
+    width:260px;
+    height: 150px;
+    padding-left: 19px;
+    margin-left: -19px;
+}
+.skyTitle{
+    margin-left: 12px;
+    font-weight: 900;
+    background-image: linear-gradient(yellow,orange,red,purple,blue);
+    color:white;
+    margin-right: 13px;
+    padding-left: 8px;
+}
+.skySubtitle{
+    margin-top: -10px;
+    margin-left: 190px;
+    font-size: 40px;
+    font-weight: 900;
+}
+.advertcontainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: flex-start;
+    border: solid black;
+    flex-basis: content;
+    padding-top: 2px;
+    margin-right: 10px;
+    margin-left: 10px;
+    padding-bottom: -30px;
 }
 
 @media (max-width: 680px) {

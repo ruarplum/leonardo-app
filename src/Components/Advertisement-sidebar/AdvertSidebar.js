@@ -9,9 +9,12 @@ const AdvertSidebar = () => {
             <div className="advertTitle">
                 <p>ADVERTISEMENT</p>
             </div>
-
-            <div className="advertlogo">
+            <div id="advertcontainer"> 
+            <div className="advertcontainer">
+                <h2 className="skyTitle">   Super reliable, Superfast Broadband</h2>
                 <img id="advertlogo" src={advertlogo} alt="advertlogo"></img>
+                <h1 className="skySubtitle">sky</h1>
+            </div>
             </div>
 
         </div>
