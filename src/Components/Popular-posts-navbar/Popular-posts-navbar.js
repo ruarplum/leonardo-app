@@ -10,7 +10,6 @@ import { IoMdArrowDropdown } from 'react-icons/all';
 import './Popular-posts-navbar.css'
 import ButtonOne from './Button'
 import ButtonTwo from './ButtonTwo'
-import DropdownLocation from './DropdownLocation'
 
 const PopularNavbar = (props) => {
 
