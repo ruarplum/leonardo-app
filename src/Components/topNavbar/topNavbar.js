@@ -1,13 +1,11 @@
 import "./TopNavbar.css";
 import logo from "./logo.png";
 import Actions from "./actions";
+import { IoMdArrowDropdown } from "react-icons/all";
 
 import SearchBar from "./searchBar";
 import Dropdown from "react-dropdown";
 import "react-dropdown/style.css";
-
-const options = ["Settings", "Dark Mode", "Help Center"];
-const defaultOption = options[0];
 
 function TopNavbar() {
   return (
@@ -32,11 +30,7 @@ function TopNavbar() {
       <div className="user">
         <Actions />
         <div className="dropdown">
-          <Dropdown
-            options={options}
-            value={defaultOption}
-            placeholder="User Option"
-          />
+          <div className="dropdown"></div>
         </div>
       </div>
     </div>

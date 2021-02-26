@@ -1,16 +1,31 @@
 .actions {
+  border-radius: 25px;
+  width: 130px;
+  height: 2vh;
+  color: rgb(135, 138, 140);
   display: flex;
+  justify-content: space-between;
   align-items: center;
 }
 .profile svg:first-child {
-  color: rgb(135, 206, 235);
+  color: rgb(135, 138, 140);
   border-radius: 25px;
-  padding-top: 3vh;
   position: relative;
-  height: 4vh;
-  width: 4vh;
+  height: 3vh;
+  width: 5vh;
 }
 .profile svg:first-child:hover {
-  color: rgb(218, 224, 230);
-  box-shadow: inset 300px 0 0 0 white;
+  border: none;
+  color: rgb(135, 138, 140);
+  box-shadow: inset 300px 0 0 0 rgb(246, 247, 248);
+}
+.userbtn {
+  border-radius: 15px;
+  background-color: white;
+  color: rgb(135, 138, 140);
+  border: none;
+  height: 4vh;
+}
+.userbtn:hover {
+  box-shadow: inset 300px 0 0 0 rgb(246, 247, 248);
 }

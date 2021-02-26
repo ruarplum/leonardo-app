@@ -1,7 +1,7 @@
 const ButtonTwo = (props) => {
     return (
         <div className={props.className}>
-            
+
             <button
                 className="buttonTwo"
                 onClick={props.onClick}

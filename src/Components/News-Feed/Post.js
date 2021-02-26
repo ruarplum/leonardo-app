@@ -16,7 +16,7 @@ const Post = (props) => {
           <div className="feed-com-post">
             <Who
               text={props.catagory}
-              textWho={`Posted by ${props.author} 12 hours ago`}
+              textWho={`Posted by ${props.author} ${props.time} hours ago`}
                img={Icon}
             />
           </div>
@@ -24,12 +24,10 @@ const Post = (props) => {
           <div className="feed-award">
             <Awards 
             star={props.star}
-            help={props.help}/>
-            {/* <button>⭐ </button>
-            <p>🤝🏼 </p>
-            <p>🦭 </p>
-            <p>🥄 </p>
-            <p>🧸 </p> */}
+            help={props.help}
+            seal={props.seal} 
+            spoon={props.spoon}
+            hugz={props.hugz}/>
           </div>
 
           <div className="feed-join">
@@ -37,7 +35,7 @@ const Post = (props) => {
           </div>
         </div>
         <div className="feed-main">
-          <p>This is test text</p>
+          <p>{props.text}</p>
         </div>
 
         <div className="feed-bottom-bar">

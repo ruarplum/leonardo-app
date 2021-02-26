@@ -1,0 +1,9 @@
+.App{
+    background-color: #dae0e6;
+}
+.mainFeedArea{
+    display: flex;
+    justify-content: center;
+    margin-left: 14em;
+    margin-top: 2em;
+}

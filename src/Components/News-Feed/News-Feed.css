@@ -4,7 +4,7 @@
   .feed-box{
     display: flex;
     background-color: rgb(255, 255, 255, 1);
-    width: 700px;
+    width: 40em;
     height: auto;
     border-radius: 5px;
     border: 1px solid lightgray;
@@ -53,12 +53,12 @@
     display: flex;
     padding-bottom: 0;
 }
-.botButton{
+.botButton, .feed-award-button{
     height: 25px;
     background-color: transparent;
     border: none;
 }
-.botButton:hover, .upArrow:hover, .downArrow:hover{
+.botButton:hover, .upArrow:hover, .downArrow:hover, .feed-award-button:hover{
     background-color: lightgray;
     border-radius: 9999px;
 }
@@ -68,7 +68,7 @@
     font-size: 1.8em;
 }
 
-.join, .botButton, .upArrow, .downArrow{
+.join, .botButton, .upArrow, .downArrow, .feed-award-button{
     outline: none;
     text-decoration: none;
 }
@@ -91,4 +91,10 @@
 }
 .Awards-all{
     display: flex;
+}
+
+@media only screen and (max-width: 600px) {
+    .feed-box{
+        width: auto;
+    }
 }

@@ -1,12 +1,12 @@
 import React from "react";
-import { FcSearch } from "react-icons/all";
+import { BiSearch } from "react-icons/all";
 import "./searchbar.css";
 
 export default function searchBar() {
   return (
     <div className="searchbar">
       <label htmlFor="searchbar">
-        <FcSearch />
+        <BiSearch />
       </label>
       <input id="searchbar" placeholder="search" />
     </div>
