@@ -2,6 +2,7 @@ import "./TopNavbar.css";
 import logo from "./logo.png";
 
 import SearchBar from "./searchBar";
+import Actions from "./actions";
 
 function TopNavbar() {
   return (
@@ -24,6 +25,7 @@ function TopNavbar() {
       </div>
 
       <div className="user">
+        <Actions />
         <div className="dropdown"></div>
       </div>
     </div>
