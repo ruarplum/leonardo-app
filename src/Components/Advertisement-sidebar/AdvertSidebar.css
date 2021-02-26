@@ -37,7 +37,7 @@
     width:260px;
     height: 50px;
     padding-left: 23px;
-    margin-left: -19px;
+    margin-left: 0px;
     margin-top: 8px;
     margin-bottom: 25px;
 }
@@ -59,7 +59,7 @@
 }
 .skySubtitle{
     margin-top: -10px;
-    margin-left: 190px;
+    margin-left: 220px;
     font-size: 40px;
     font-weight: 900;
 }
