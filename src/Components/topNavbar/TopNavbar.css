@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:ital@1&display=swap");
 @import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,700;1,100;1,200&family=Noto+Sans:wght@400;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@500&display=swap");
 
 .container1 {
   background-color: white;
@@ -45,7 +46,6 @@ input {
 .searchBar {
   font-family: "Source Sans Pro", sans-serif;
   position: relative;
-
   padding: 2vh;
 }
 .search {
@@ -54,7 +54,9 @@ input {
 .btn1 {
   color: rgb(0, 121, 211);
   box-shadow: inset 0 0 0 0;
+
   font-family: "Noto sans", sans-serif;
+
   background-color: white;
   border: rgb(0, 121, 211) solid 1px;
   width: 120px;
