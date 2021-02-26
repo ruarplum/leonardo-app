@@ -6,7 +6,7 @@ const HelpCounter = (props) => {
   return (
     <div>
       <button
-        className="feed-help"
+        className="feed-award-button"
         onClick={() => sethelpCount(helpCounter + 1)}
       >
         🤝🏼 {helpCounter}
