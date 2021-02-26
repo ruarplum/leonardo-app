@@ -8,6 +8,7 @@
     border:solid lightgray;
     font-family: "Roboto";
     display: flex;
+    margin-top: 50px;
 }
 .PremiumLogo{
     width: 33px;
